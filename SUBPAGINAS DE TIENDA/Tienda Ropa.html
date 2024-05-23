@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link  href="../CSS/estilo.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../Imagenes/Logo Tarjeta.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+    <title>Mascotik Store</title>
+</head>
+
+<body>
+    <nav id="navbar "class="navbar navbar-expand-lg bg-color" >
+        <div class="container-fluid">
+        <a class="navbar-brand" href="../Index.html">
+          <img src="../Imagenes/Logo navbar.png" alt="Logo" width="100" height="70" class="d-inline-block align-text-center">
+          <strong>Mascotik Store</strong>  
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+    
+            <li class="nav-item">
+            <a class="nav-link" href="../Nosotros.html"><strong>Nosotros</strong></a>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../Tienda.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <strong>Tienda</strong>  
+              </a>
+              <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Tienda Ropa.html"><strong>Ropa</strong></a></li>
+              <li><a class="dropdown-item" href="Tienda Alimento.html"><strong>Alimentos</strong></a></li>
+              <li><a class="dropdown-item" href="Tienda Accesorios.html"><strong>Juguetes y Accesorios </strong></a></li>
+              <li><a class="dropdown-item" href="Tienda Cuidado.html"><strong>Cuidado y Farmacia</strong> </a></li>
+              <li><a class="dropdown-item" href="Tienda Baños.html"> <strong>Baños y limpieza</strong></a></li>
+              <li><a class="dropdown-item" href="Tienda exoticos.html"> <strong>Mascotas Exoticas</strong></a></li>
+              </ul>
+            <li class="nav-item">
+            <a class="nav-link" href="../Donaciones.html"> <strong>Donaciones</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Contacto.html"><strong>Contacto</strong></a>
+            </li>
+            
+            </li>
+            </ul>
+            <formSearch class="d-flex" role="Buscar">
+            <input class="form-control me-2" type="Buscar" placeholder="¿Buscas algo especial?" aria-label="Buscar">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </formSearch>
+        </div>
+        </div>
+    </nav><br>
+
+    <div class="container">  
+        <!--ARTICULO ROPA 1:-->
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="../imagenes ropa/ropa1.jpg" class="card-img-top" alt="guayabera">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">Camisa Guayabera</h5>
+                    <p class="card-text text-center">Hermosa camisa estilo guayabera. Haz click en el botón de abajo para tener más información sobre este producto.</p>
+
+                     <!-- Button trigger modal 1 -->
+                   <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">
+                    Ver Detalles
+                    </button>
+   
+                   <!-- Modal PRODUCTO 1 -->
+                   <div class="modal fade" id="modal1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                   <div class="modal-dialog modal-dialog-scrollable">
+                   <div class="modal-content bg-color">
+                   <div class="modal-header bg-color">
+                   <h3 class="modal-title" id="staticBackdropLabel">CAMISA GUAYABERA VERANO</h3>
+                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body">
+                   <img src="../imagenes ropa/ropa1.jpg" width="450px" height="300px">
+                   <br>
+                   <br>
+                   <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Hermosa camisa guayabera con diseños hawaianos, ideal para la temporada de verano. Disponible sólo en el color referencial de la imagen. Contamos con todas las tallas disponibles y es apto tanto para perros como para gatos.</p>
+                   <br>
+                   <ul>
+                     <li><strong>TALLAS DISPONIBLES:</strong> S, M, L, XL, XXL.</li>
+                     <li><strong>TIPO DE TELA:</strong> 40% Algodón - 60% Poliéster.</li>
+                     <li><strong>STOCK DISPONIBLE:</strong> 25 Unidades.</li>
+                     <li><strong>COD. PRODUCTO:</strong> GUAY-VER56322</li>
+                     <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                     <li><strong>RETIRO EN TIENDA:</strong> SI.</li>
+                 </ul>
+                    <br>   
+                   </div>
+                   <div class="modal-footer">
+                  <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                  <button type="submit" class="btn btn-primary">Comprar</button>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  <!--Fin del modal 1-->
+
+                    </div>
+                </div>
+                </div>
+
+
+
+
+
+
+          <!--ARTICULO ROPA 2:-->
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="../imagenes ropa/ropa2.jpg" class="card-img-top" alt="camisa estampada">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">Camisa Estampada</h5>
+                    <p class="card-text text-center">Hermosa camisa estampada unisex. Haz click en el botón de abajo para tener más información sobre este producto.</p>
+                    
+                   <!-- Button trigger modal 2 -->
+                   <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">
+                   Ver Detalles
+                   </button>
+  
+                  <!-- Modal PRODUCTO 2 -->
+                  <div class="modal fade" id="modal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content bg-color">
+                  <div class="modal-header bg-color">
+                  <h3 class="modal-title" id="staticBackdropLabel">CAMISA ESTAMPADA UNISEX</h3>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                  <img src="../imagenes ropa/ropa2.jpg" width="450px" height="300px">
+                  <br>
+                  <br>
+                  <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Hermosa camisa con estampados unisex de cuello italiano, para que vistas a tu mascota con estilo y a la moda. Contamos con todas las tallas disponibles y es apto tanto para perros como para gatos.</p>
+                  <br>
+                  <ul>
+                    <li><strong>TALLAS DISPONIBLES:</strong> S, M, L, XL, XXL.</li>
+                    <li><strong>TIPO DE TELA:</strong> 100% Algodón.</li>
+                    <li><strong>STOCK DISPONIBLE:</strong> 100 Unidades.</li>
+                    <li><strong>COD. PRODUCTO:</strong> HFVGGHS56322</li>
+                    <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                    <li><strong>RETIRO EN TIENDA:</strong> SI.</li>
+                </ul>
+                   <br>   
+                  </div>
+                  <div class="modal-footer">
+                 <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                 <button type="submit" class="btn btn-primary">Comprar</button>
+                 </div>
+                 </div>
+                 </div>
+                 </div>
+                 <!--Fin del modal 2-->
+
+                    </div> 
+                </div>
+                </div>
+
+
+
+
+
+
+                 <!--ARTICULO ROPA 3:-->
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="../imagenes ropa/ropa3.png" class="card-img-top" alt="chaleco metalizado">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">Chaleco Metalizado</h5>
+                    <p class="card-text text-center">Chaleco tipo parka metalizado. Haz click en el botón de abajo para tener más información sobre este producto.</p>
+
+                    <!-- Button trigger modal 3 -->
+                   <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">
+                    Ver Detalles
+                    </button>
+   
+                   <!-- Modal PRODUCTO 3 -->
+                   <div class="modal fade" id="modal3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                   <div class="modal-dialog modal-dialog-scrollable">
+                   <div class="modal-content bg-color">
+                   <div class="modal-header bg-color">
+                   <h3 class="modal-title" id="staticBackdropLabel">CHALECO METALIZADO</h3>
+                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body">
+                   <img src="../imagenes ropa/ropa3.png" width="450px" height="300px">
+                   <br>
+                   <br>
+                   <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Chaleco tipo parka metalizado, ideal para la temporada OTOÑO-INVIERNO para que mantengas a tu mascota abrigada y protegida del frío.</p>
+                   <br>
+                   <ul>
+                     <li><strong>TALLAS DISPONIBLES:</strong> S, M, L.</li>
+                     <li><strong>COLORES DISPONIBLES:</strong> Rosado, Dorado, Rojo.</li>
+                     <li><strong>TIPO DE TELA:</strong> 100% Poliéster.</li>
+                     <li><strong>STOCK DISPONIBLE:</strong> 50 Unidades.</li>
+                     <li><strong>COD. PRODUCTO:</strong> CHA-MET56232</li>
+                     <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                     <li><strong>RETIRO EN TIENDA:</strong> NO.</li>
+                 </ul>
+                    <br>   
+                   </div>
+                   <div class="modal-footer">
+                  <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                  <button type="submit" class="btn btn-primary">Comprar</button>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  <!--Fin del modal 3-->
+
+                    </div>
+                </div>
+                </div>
+
+
+
+
+
+                 <!--ARTICULO ROPA 4:-->
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="../imagenes ropa/ropa4.jpg" class="card-img-top" alt="parka perro">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">Conjunto Térmico</h5>
+                    <p class="card-text text-center">Enterizo térmico ideal para el invierno. Haz click en el botón de abajo para tener más información sobre este producto.</p>
+
+                   
+                    <!-- Button trigger modal 4 -->
+                    <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal4">
+                        Ver Detalles
+                        </button>
+       
+                       <!-- Modal PRODUCTO 4 -->
+                       <div class="modal fade" id="modal4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                       <div class="modal-dialog modal-dialog-scrollable">
+                       <div class="modal-content bg-color">
+                       <div class="modal-header bg-color">
+                       <h3 class="modal-title" id="staticBackdropLabel">CONJUNTO TÉRMICO</h3>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                       <img src="../imagenes ropa/ropa4.jpg" width="450px" height="300px">
+                       <br>
+                       <br>
+                       <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Conjunto cuerpo entero térmico unisex, ideal para la temporada de INVIERNO para que mantengas a tu mascota abrigada y protegida del frío. Disponible en todas las tallas, apto para perros de razas grandes o pequeñas.</p>
+                       <br>
+                       <ul>
+                         <li><strong>TALLAS DISPONIBLES:</strong> S, M, L, XL, XXL, XXXL.</li>
+                         <li><strong>COLORES DISPONIBLES:</strong> Azul, Verde, Negro.</li>
+                         <li><strong>TIPO DE TELA:</strong> 100% Poliéster.</li>
+                         <li><strong>STOCK DISPONIBLE:</strong> 37 Unidades.</li>
+                         <li><strong>COD. PRODUCTO:</strong> PAR-TER0283232</li>
+                         <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                         <li><strong>RETIRO EN TIENDA:</strong> SI.</li>
+                     </ul>
+                        <br>   
+                       </div>
+                       <div class="modal-footer">
+                      <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                      <button type="submit" class="btn btn-primary">Comprar</button>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      <!--Fin del modal 4-->                            
+                </div>
+                </div>
+                </div>
+
+
+
+
+
+                 <!--ARTICULO ROPA 5:-->
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="../imagenes ropa/ropa5.jpg" class="card-img-top" alt="vestido">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">Vestido Lentejuelas</h5>
+                    <p class="card-text text-center">Hermoso vestido para razas pequeñas. Haz click en el botón de abajo para tener más información sobre este producto.</p>
+                    
+                    <!-- Button trigger modal 5 -->
+                    <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal5">
+                        Ver Detalles
+                        </button>
+       
+                       <!-- Modal PRODUCTO 5 -->
+                       <div class="modal fade" id="modal5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                       <div class="modal-dialog modal-dialog-scrollable">
+                       <div class="modal-content bg-color">
+                       <div class="modal-header bg-color">
+                       <h3 class="modal-title" id="staticBackdropLabel">VESTIDO LENTEJUELAS</h3>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                       <img src="../imagenes ropa/ropa5.jpg" width="450px" height="300px">
+                       <br>
+                       <br>
+                       <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Vestido de lentejuelas con lazo en la parte trasera, ideal para las más consentidas de la casa. Disponible en todas las tallas, apto para perros de razas pequeñas y gatos.</p>
+                       <br>
+                       <ul>
+                         <li><strong>TALLAS DISPONIBLES:</strong> S, M.</li>
+                         <li><strong>COLORES DISPONIBLES:</strong> Rosado.</li>
+                         <li><strong>TIPO DE TELA:</strong> 100% Poliéster.</li>
+                         <li><strong>STOCK DISPONIBLE:</strong> 15 Unidades.</li>
+                         <li><strong>COD. PRODUCTO:</strong> VES-LENT0583232</li>
+                         <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                         <li><strong>RETIRO EN TIENDA:</strong> SI.</li>
+                     </ul>
+                        <br>   
+                       </div>
+                       <div class="modal-footer">
+                      <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                      <button type="submit" class="btn btn-primary">Comprar</button>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      <!--Fin del modal 5-->
+                </div>
+                </div>
+                </div>
+
+
+
+
+                 <!--ARTICULO ROPA 6:-->
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="../imagenes ropa/ropa6.jpg" class="card-img-top" alt="jardinera marinero">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">Jardinera Marinero</h5>
+                    <p class="card-text text-center">Preciosa jardinera ideal para cachorros. Haz click en el botón de abajo para tener más información sobre este producto.</p>
+                    
+                    <!-- Button trigger modal 6 -->
+                    <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal6">
+                        Ver Detalles
+                        </button>
+       
+                       <!-- Modal PRODUCTO 6 -->
+                       <div class="modal fade" id="modal6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                       <div class="modal-dialog modal-dialog-scrollable">
+                       <div class="modal-content bg-color">
+                       <div class="modal-header bg-color">
+                       <h3 class="modal-title" id="staticBackdropLabel">JARDINERA MARINERO</h3>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                       <img src="../imagenes ropa/ropa6.jpg" width="450px" height="300px">
+                       <br>
+                       <br>
+                       <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Conjunto de polera y jardinera con diseño tipo MARINERO, ideal para cachorros o gatos.</p>
+                       <br>
+                       <ul>
+                         <li><strong>TALLAS DISPONIBLES:</strong> S.</li>
+                         <li><strong>COLORES DISPONIBLES:</strong> Azul marino.</li>
+                         <li><strong>TIPO DE TELA:</strong> 100% Algodón.</li>
+                         <li><strong>STOCK DISPONIBLE:</strong> 38 Unidades.</li>
+                         <li><strong>COD. PRODUCTO:</strong> JAR-MAR86732</li>
+                         <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                         <li><strong>RETIRO EN TIENDA:</strong> SI.</li>
+                     </ul>
+                        <br>   
+                       </div>
+                       <div class="modal-footer">
+                      <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                      <button type="submit" class="btn btn-primary">Comprar</button>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      <!--Fin del modal 6-->
+                </div>
+                </div>
+                </div>
+
+
+
+            </div>
+    </div> <br>
+
+
+
+
+    <br>
+    <div class="contenedor">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <img src="../Imagenes/Logo Tarjeta.png" alt="Logo" width="180" height="150">
+                  
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-12 text-center">
+                        <h3><strong>Mascotik Store</strong></h3>
+                        <p><strong>Correo electrónico:</strong> Contacto@MascotikStore.com </p>
+                        <p><strong>Teléfono:</strong> +56966989578</p>
+                        <p><strong>Dirección:</strong> Santiago, Chile</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

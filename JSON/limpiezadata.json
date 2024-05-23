@@ -1,0 +1,40 @@
+{
+    "limpieza": [
+        {
+            "ImgLimpieza": "../imagenes banos y limpieza/arena1.png",
+            "idLimpieza": "1",
+            "strTitulo": "Arena Sanitaria Bengala",
+            "strDescripcion": "Haz click en el botón de abajo para tener más información sobre este producto."
+        },
+        {
+            "ImgLimpieza": "../imagenes banos y limpieza/arena2.png",
+            "idLimpieza": "2",
+            "strTitulo": "Arena Sanitaria MicroCrystals",
+            "strDescripcion": "Haz click en el botón de abajo para tener más información sobre este producto."
+        },
+        {
+            "ImgLimpieza": "../imagenes banos y limpieza/arena3.png",
+            "idLimpieza": "3",
+            "strTitulo": "Arena Sanitaria Americalitter",
+            "strDescripcion": "Haz click en el botón de abajo para tener más información sobre este producto."
+        },
+        {
+            "ImgLimpieza": "../imagenes cuidado y farmacia/arenero2.png",
+            "idLimpieza": "4",
+            "strTitulo": "Arenero Plástico",
+            "strDescripcion": "Haz click en el botón de abajo para tener más información sobre este producto."
+        },
+        {
+            "ImgLimpieza": "../imagenes banos y limpieza/kitarenero.png",
+            "idLimpieza": "5",
+            "strTitulo": "KIT Arenero + Arenas Sanitarias",
+            "strDescripcion": "Haz click en el botón de abajo para tener más información sobre este producto."
+        },
+        {
+            "ImgLimpieza": "../imagenes banos y limpieza/Accesorios 3.png",
+            "idLimpieza": "6",
+            "strTitulo": "Arenero Easy Clean",
+            "strDescripcion": "Haz click en el botón de abajo para tener más información sobre este producto."
+        }
+        ]
+}

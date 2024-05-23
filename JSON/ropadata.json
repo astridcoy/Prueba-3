@@ -1,0 +1,41 @@
+{
+    "ropa": [
+        {
+            "ImgRopa": "../imagenes ropa/ropa1.jpg",
+            "idRopa": "1",
+            "strTitulo": "Camisa Guayabera",
+            "strDescripcion": "Hermosa camisa estilo guayabera. Haz click en el botón de abajo para tener más información sobre este producto."
+        },
+        {
+            "ImgRopa": "../imagenes ropa/ropa2.jpg",
+            "idRopa": "2",
+            "strTitulo": "Camisa Estampada",
+            "strDescripcion": "Hermosa camisa estampada unisex. Haz click en el botón de abajo para tener más información sobre este producto."
+        },
+        {
+            "ImgRopa": "../imagenes ropa/ropa3.jpg",
+            "idRopa": "3",
+            "strTitulo": "Chaleco Metalizado",
+            "strDescripcion": "Chaleco tipo parka metalizado. Haz click en el botón de abajo para tener más información sobre este producto."
+        },
+        {
+            "ImgRopa": "../imagenes ropa/ropa4.jpg",
+            "idRopa": "4",
+            "strTitulo": "Conjunto Térmico",
+            "strDescripcion": "Enterizo térmico ideal para el invierno. Haz click en el botón de abajo para tener más información sobre este producto."
+        },
+        {
+            "ImgRopa": "../imagenes ropa/ropa5.jpg",
+            "idRopa": "5",
+            "strTitulo": "Vestido Lentejuelas",
+            "strDescripcion": "Hermoso vestido para razas pequeñas. Haz click en el botón de abajo para tener más información sobre este producto."
+        },
+        {
+            "ImgRopa": "../imagenes ropa/ropa6.jpg",
+            "idRopa": "6",
+            "strTitulo": "Jardinera Marinero",
+            "strDescripcion": "Preciosa jardinera ideal para cachorros. Haz click en el botón de abajo para tener más información sobre este producto."
+        }
+             
+    ]
+}

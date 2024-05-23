@@ -1,0 +1,41 @@
+{
+    "juguetes": [
+        {
+            "ImgJuguete": "../imagenes accesorios y juguetes/Juguete 1.png",
+            "idJuguete": "1",
+            "strTitulo": "Kit Pelota + Cuerda",
+            "strDescripcion": "Haz click en el botón de abajo para tener más información sobre este producto."
+        },
+        {
+            "ImgJuguete": "../imagenes accesorios y juguetes/Accesorios 4.png",
+            "idJuguete": "2",
+            "strTitulo": "Cama Mascotas Polar",
+            "strDescripcion": "Haz click en el botón de abajo para tener más información sobre este producto."
+        },
+        {
+            "ImgJuguete": "../imagenes accesorios y juguetes/Accesorios 6.png",
+            "idJuguete": "3",
+            "strTitulo": "Cama Mascotas Grande",
+            "strDescripcion": "Haz click en el botón de abajo para tener más información sobre este producto."
+        },
+        {
+            "ImgJuguete":  "../imagenes accesorios y juguetes/Juguete 4.png",
+            "idJuguete": "4",
+            "strTitulo": "Pelota Automática Recargable",
+            "strDescripcion": "Haz click en el botón de abajo para tener más información sobre este producto."
+        },
+        {
+            "ImgJuguete":  "../imagenes accesorios y juguetes/Accesorios 5.png",
+            "idJuguete": "5",
+            "strTitulo": "Casa para perro",
+            "strDescripcion": "Haz click en el botón de abajo para tener más información sobre este producto."
+        },
+        {
+            "ImgJuguete": "../imagenes accesorios y juguetes/Juguete 6.png",
+            "idJuguete": "6",
+            "strTitulo": "Juguete Didáctico Gato",
+            "strDescripcion": "Haz click en el botón de abajo para tener más información sobre este producto."
+        }
+           
+    ]
+}

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="../Imagenes/Logo Tarjeta.png">
+        <link  href="../CSS/estilo.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+        <title>Mascotik Store</title>
+    </head> 
+<body>
+    <nav id="navbar "class="navbar navbar-expand-lg bg-color" >
+        <div class="container-fluid">
+        <a class="navbar-brand" href="../Index.html">
+          <img src="../Imagenes/Logo navbar.png" alt="Logo" width="100" height="70" class="d-inline-block align-text-center">
+          <strong>Mascotik Store</strong>  
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+    
+            <li class="nav-item">
+            <a class="nav-link" href="../Nosotros.html"><strong>Nosotros</strong></a>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../Tienda.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <strong>Tienda</strong>  
+              </a>
+              <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Tienda Ropa.html"><strong>Ropa</strong></a></li>
+              <li><a class="dropdown-item" href="Tienda Alimento.html"><strong>Alimentos</strong></a></li>
+              <li><a class="dropdown-item" href="Tienda Accesorios.html"><strong>Juguetes y Accesorios </strong></a></li>
+              <li><a class="dropdown-item" href="Tienda Cuidado.html"><strong>Cuidado y Farmacia</strong> </a></li>
+              <li><a class="dropdown-item" href="Tienda Baños.html"> <strong>Baños y limpieza</strong></a></li>
+              <li><a class="dropdown-item" href="Tienda exoticos.html"> <strong>Mascotas Exoticas</strong></a></li>
+              </ul>
+            <li class="nav-item">
+            <a class="nav-link" href="../Donaciones.html"> <strong>Donaciones</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Contacto.html"><strong>Contacto</strong></a>
+            </li>
+            
+            </li>
+            </ul>
+            <formSearch class="d-flex" role="Buscar">
+            <input class="form-control me-2" type="Buscar" placeholder="¿Buscas algo especial?" aria-label="Buscar">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </formSearch>
+        </div>
+        </div>
+    </nav><br>
+
+
+    <div class="container">  
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                
+                
+                <!-- ALIMENTO 1-->
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="../imagenes alimentos/Comida g 4.png" class="card-img-top" alt="comida gato w">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">Comida Gato Adulto Whiskas</h5>
+                    <p class="card-text text-center">Haz click en el botón de abajo para tener más información sobre este producto.</p>
+                    <!-- Button trigger modal alimentos 1 -->
+                    <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAlimento1">
+                        Ver Detalles
+                        </button>
+       
+                       <!-- Modal ALIMENTO 1 -->
+                       <div class="modal fade" id="modalAlimento1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                       <div class="modal-dialog modal-dialog-scrollable">
+                       <div class="modal-content bg-color">
+                       <div class="modal-header bg-color">
+                       <h3 class="modal-title" id="staticBackdropLabel">WHISKAS ALIMENTO GATO ADULTO 3KG</h3>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                       <img src="../imagenes alimentos/Comida g 4.png" width="450px" height="300px">
+                       <br>
+                       <br>
+                       <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Alimento Premium para gatos adultos (a partir de 1 año de edad) marca WHISKAS sabor pescado enriquecido con nutrientes.</p>
+                       <br>
+                       <ul>
+                         <li><strong>CONTENIDO:</strong> 3KG</li>
+                         <li><strong>STOCK DISPONIBLE:</strong> 5 Unidades.</li>
+                         <li><strong>COD. PRODUCTO:</strong> WHI-CAT0283232</li>
+                         <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                         <li><strong>RETIRO EN TIENDA:</strong> SI.</li>
+                     </ul>
+                        <br>   
+                       </div>
+                       <div class="modal-footer">
+                      <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                      <button type="submit" class="btn btn-primary">Comprar</button>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      <!--Fin del modal alimento 1-->                            
+                    </div>
+                </div>
+                </div>
+
+
+
+
+
+                <!-- ALIMENTO 2-->
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="../imagenes alimentos/Comida P 3.png" class="card-img-top" alt="comida perro 3">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">Comida Perro Purina Doko</h5>
+                    <p class="card-text text-center">Haz click en el botón de abajo para tener más información sobre este producto.</p>
+                  
+                    <!-- Button trigger modal alimentos 2 -->
+                    <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAlimento2">
+                        Ver Detalles
+                        </button>
+       
+                       <!-- Modal ALIMENTO 2 -->
+                       <div class="modal fade" id="modalAlimento2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                       <div class="modal-dialog modal-dialog-scrollable">
+                       <div class="modal-content bg-color">
+                       <div class="modal-header bg-color">
+                       <h3 class="modal-title" id="staticBackdropLabel">Comida Perro Purina Doko 5KG</h3>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                       <img src="../imagenes alimentos/Comida P 3.png" width="450px" height="300px">
+                       <br>
+                       <br>
+                       <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Purina Doko, comida para cachorros, perros pequeños y medianos, de la más alta calidad. Enriquecido con carne, vegetales, cereales y leche. </p>
+                       <br>
+                       <ul>
+                        <li><strong>CONTENIDO:</strong> 5KG</li>
+                        <li><strong>STOCK DISPONIBLE:</strong> 19 Unidades.</li>
+                        <li><strong>COD. PRODUCTO:</strong> DOKO-PUR0283232</li>
+                        <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                        <li><strong>RETIRO EN TIENDA:</strong> SI.</li>                        
+                     </ul>
+                        <br>   
+                       </div>
+                       <div class="modal-footer">
+                      <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                      <button type="submit" class="btn btn-primary">Comprar</button>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      <!--Fin del modal alimento 2-->                            
+                    </div>
+                </div>
+                </div>
+
+
+
+                <!-- ALIMENTO 3 -->
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="../imagenes alimentos/Comida G 8.png" class="card-img-top" alt="comida premium gatoS">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">Alimento Premium Gato Senior</h5>
+                    <p class="card-text text-center">Haz click en el botón de abajo para tener más información sobre este producto.</p>
+                    <!-- Button trigger modal alimentos 3 -->
+                    <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAlimento3">
+                        Ver Detalles
+                        </button>
+       
+                       <!-- Modal ALIMENTO 3 -->
+                       <div class="modal fade" id="modalAlimento3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                       <div class="modal-dialog modal-dialog-scrollable">
+                       <div class="modal-content bg-color">
+                       <div class="modal-header bg-color">
+                       <h3 class="modal-title" id="staticBackdropLabel">Alimento Premium Gato Senior Kailli's 3KG</h3>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                       <img src="../imagenes alimentos/Comida G 8.png" width="450px" height="300px">
+                       <br>
+                       <br>
+                       <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Alimento para gatos en edad SENIOR marca Kailil's, comida premium a base de ingredientes naturales (sabor carne y vegetales). Cuida la salud de tus mascotas y mejora su calidad de vida con este alimento.</p>
+                       <br>
+                       <ul>
+                        <li><strong>CONTENIDO:</strong> 3KG</li>
+                        <li><strong>STOCK DISPONIBLE:</strong> 27 Unidades.</li>
+                        <li><strong>COD. PRODUCTO:</strong> KHA-CAT0208732</li>
+                        <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                        <li><strong>RETIRO EN TIENDA:</strong> SI.</li>                        
+                     </ul>
+                        <br>   
+                       </div>
+                       <div class="modal-footer">
+                      <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                      <button type="submit" class="btn btn-primary">Comprar</button>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      <!--Fin del modal alimento 3-->                            
+                    </div>
+                </div>
+                </div>
+
+
+
+                <!-- ALIMENTO 4-->
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="../imagenes alimentos/Comida P 7.png" class="card-img-top" alt="comida perro 4">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">Alimento Perro Senior Pedigree</h5>
+                    <p class="card-text text-center">Haz click en el botón de abajo para tener más información sobre este producto.</p>
+                    <!-- Button trigger modal alimentos 4 -->
+                    <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAlimento4">
+                        Ver Detalles
+                        </button>
+       
+                       <!-- Modal ALIMENTO 4 -->
+                       <div class="modal fade" id="modalAlimento4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                       <div class="modal-dialog modal-dialog-scrollable">
+                       <div class="modal-content bg-color">
+                       <div class="modal-header bg-color">
+                       <h3 class="modal-title" id="staticBackdropLabel">Alimento Perro Senior Pedigree 8KG</h3>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                       <img src="../imagenes alimentos/Comida P 7.png" width="450px" height="300px">
+                       <br>
+                       <br>
+                       <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Alimento para perros de razas grandes en edad SENIOR marca PEDIGREE, comida premium hecha con ingredientes de la más alta calidad (sabor carne, pollo y vegetales). Cuida la salud de tus mascotas y mejora su calidad de vida con este excelente alimento.</p>
+                       <br>
+                       <ul>
+                        <li><strong>CONTENIDO:</strong> 8KG</li>
+                        <li><strong>STOCK DISPONIBLE:</strong> 10 Unidades.</li>
+                        <li><strong>COD. PRODUCTO:</strong> PEDG-DOGFJH3232</li>
+                        <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                        <li><strong>RETIRO EN TIENDA:</strong> SI.</li>
+                     </ul>
+                        <br>   
+                       </div>
+                       <div class="modal-footer">
+                      <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                      <button type="submit" class="btn btn-primary">Comprar</button>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      <!--Fin del modal alimento 4-->                            
+                    </div>
+                </div>
+                </div>
+
+
+                <!-- ALIMENTO 5 -->
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="../imagenes alimentos/Comida P 2.png" class="card-img-top" alt="comida cachorros">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">Alimento Master Dog Cachorros</h5>
+                    <p class="card-text text-center">Haz click en el botón de abajo para tener más información sobre este producto.</p>
+ 
+                    <!-- Button trigger modal alimentos 5 -->
+                    <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAlimento5">
+                        Ver Detalles
+                        </button>
+       
+                       <!-- Modal ALIMENTO 5 -->
+                       <div class="modal fade" id="modalAlimento5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                       <div class="modal-dialog modal-dialog-scrollable">
+                       <div class="modal-content bg-color">
+                       <div class="modal-header bg-color">
+                       <h3 class="modal-title" id="staticBackdropLabel">Alimento Master Dog Cachorros 8KG</h3>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                       <img src="../imagenes alimentos/Comida P 2.png" width="450px" height="300px">
+                       <br>
+                       <br>
+                       <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Cuida la salud de tus cachorritos con alimento premium MASTER DOG CACHORROS, contiene proteínas y vitaminas esenciales para su crecimiento. Sabor carne.</p>
+                       <br>
+                       <ul>
+                        <li><strong>CONTENIDO:</strong> 8KG</li>
+                        <li><strong>STOCK DISPONIBLE:</strong> 100 Unidades.</li>
+                        <li><strong>COD. PRODUCTO:</strong> MDOG-C0283232</li>
+                        <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                        <li><strong>RETIRO EN TIENDA:</strong> SI.</li>
+                     </ul>
+                        <br>   
+                       </div>
+                       <div class="modal-footer">
+                      <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                      <button type="submit" class="btn btn-primary">Comprar</button>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      <!--Fin del modal alimento 5-->                                               
+                    </div>
+                </div>
+                </div>
+
+
+                <!-- ALIMENTO 6-->
+                <div class="col-md-4">
+                <div class="card">
+                    <img src="../imagenes alimentos/Comida P 5.png" class="card-img-top" alt="comida 6">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">Alimento Purina Dog Chow</h5>
+                    <p class="card-text text-center">Haz click en el botón de abajo para tener más información sobre este producto.</p>
+                   
+                    <!-- Button trigger modal alimentos 6 -->
+                    <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAlimento6">
+                        Ver Detalles
+                        </button>
+       
+                       <!-- Modal ALIMENTO 6 -->
+                       <div class="modal fade" id="modalAlimento6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                       <div class="modal-dialog modal-dialog-scrollable">
+                       <div class="modal-content bg-color">
+                       <div class="modal-header bg-color">
+                       <h3 class="modal-title" id="staticBackdropLabel">Alimento Purina Dog Chow 24KG</h3>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                       <img src="../imagenes alimentos/Comida P 5.png" width="450px" height="300px">
+                       <br>
+                       <br>
+                       <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Alimento PURINA DOG CHOW EXTRA LIFE, especial para cachorros y perros de razas medianas y grandes. Sabor a carne y pollo. Brindales lo mejor de lo mejor a tus consentidos.</p>
+                       <br>
+                       <ul>
+                        <li><strong>CONTENIDO:</strong> 24KG</li>
+                        <li><strong>STOCK DISPONIBLE:</strong> 15 Unidades.</li>
+                        <li><strong>COD. PRODUCTO:</strong> PUR-DOGC83232</li>
+                        <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                        <li><strong>RETIRO EN TIENDA:</strong> SI.</li>
+                     </ul>
+                        <br>   
+                       </div>
+                       <div class="modal-footer">
+                      <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                      <button type="submit" class="btn btn-primary">Comprar</button>
+                      </div>
+                      </div>
+                      </div>
+                      </div>
+                      <!--Fin del modal alimento 6-->                            
+                    </div>
+                </div>
+                </div>
+            </div>
+    </div> 
+    <br>
+
+
+
+    <br>
+    <div class="contenedor">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <img src="../Imagenes/Logo Tarjeta.png" alt="Logo" width="180" height="150">
+                  
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-12 text-center">
+                        <h3><strong>Mascotik Store</strong></h3>
+                        <p><strong>Correo electrónico:</strong> Contacto@Mascotik Store.com </p>
+                        <p><strong>Teléfono:</strong> +56966989578</p>
+                        <p><strong>Dirección:</strong> Santiago, Chile</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    
+    background-image: url('pet-footprint-seamless-pattern-pet-animal-dog-cat-footprint-background-with-heart-bone-element-puppy-kitten-texture-doodle-drawn-wallpaper-vector.jpg');
+    background-size: cover;
+    background-position: top left;
+    background-repeat: repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+.contenedor{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 30px;
+}
+
+
+.contenedor-imagenes{
+display: flex;
+justify-content: space-between;
+margin: 30px;
+text-align: center;
+}
+
+.imagen{
+    width: 20%;
+    height: auto;
+}
+
+.texto{
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+th, td {
+    background-color: chartreuse; 
+    color: #ee1dcb
+}
+
+#LineaGato {
+    background-color: white; 
+    color: black
+}
+
+.GrupoEspecial {
+    background-color: brown; 
+    color: dodgerblue
+}
+
+.GrupoEspecial2 {
+    background-color: rgb(1, 255, 221); 
+    color: rgb(77, 1, 1)
+}
+
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }

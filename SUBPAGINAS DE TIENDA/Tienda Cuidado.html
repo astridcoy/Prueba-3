@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="../Imagenes/Logo Tarjeta.png">
+        <link  href="../CSS/estilo.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+        <title>Mascotik Store</title>
+    </head> 
+<body>
+    <nav id="navbar "class="navbar navbar-expand-lg bg-color" >
+        <div class="container-fluid">
+        <a class="navbar-brand" href="../Index.html">
+          <img src="../Imagenes/Logo navbar.png" alt="Logo" width="100" height="70" class="d-inline-block align-text-center">
+          <strong>Mascotik Store</strong>  
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+    
+            <li class="nav-item">
+            <a class="nav-link" href="../Nosotros.html"><strong>Nosotros</strong></a>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../Tienda.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <strong>Tienda</strong>  
+              </a>
+              <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Tienda Ropa.html"><strong>Ropa</strong></a></li>
+              <li><a class="dropdown-item" href="Tienda Alimento.html"><strong>Alimentos</strong></a></li>
+              <li><a class="dropdown-item" href="Tienda Accesorios.html"><strong>Juguetes y Accesorios </strong></a></li>
+              <li><a class="dropdown-item" href="Tienda Cuidado.html"><strong>Cuidado y Farmacia</strong> </a></li>
+              <li><a class="dropdown-item" href="Tienda Baños.html"> <strong>Baños y limpieza</strong></a></li>
+              <li><a class="dropdown-item" href="Tienda exoticos.html"> <strong>Mascotas Exoticas</strong></a></li>
+              </ul>
+            <li class="nav-item">
+            <a class="nav-link" href="../Donaciones.html"> <strong>Donaciones</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Contacto.html"><strong>Contacto</strong></a>
+            </li>
+            
+            </li>
+            </ul>
+            <formSearch class="d-flex" role="Buscar">
+            <input class="form-control me-2" type="Buscar" placeholder="¿Buscas algo especial?" aria-label="Buscar">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </formSearch>
+        </div>
+        </div>
+    </nav><br>
+
+
+    <div class="container">  
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+
+                <!-- ACCESORIO 1:-->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../imagenes cuidado y farmacia/Accesorios 1.png" class="card-img-top" alt="ac 1">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">Jaula Multiniveles Gato</h5>
+                        <p class="card-text text-center">Haz click en el botón de abajo para tener más información sobre este producto.</p>
+    
+                        <!-- Button trigger accesorios 1 -->
+                        <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalC1">
+                            Ver Detalles
+                            </button>
+           
+                           <!-- Modal accesorios 1 -->
+                           <div class="modal fade" id="modalC1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                           <div class="modal-dialog modal-dialog-scrollable">
+                           <div class="modal-content bg-color">
+                           <div class="modal-header bg-color">
+                           <h3 class="modal-title" id="staticBackdropLabel">Jaula Multiniveles Gato</h3>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                           <img src="../imagenes cuidado y farmacia/Accesorios 1.png" width="450px" height="300px">
+                           <br>
+                           <br>
+                           <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Jaula para gatos con multiples plataformas, ideal para cuando tienes más de un gato y quieres fomentar una buena convivencia entre ellos.</p>
+                           <br>
+                           <ul>
+                             <li><strong>STOCK DISPONIBLE:</strong> 11 Unidades.</li>
+                             <li><strong>COD. PRODUCTO:</strong> PLT-GT0283232</li>
+                             <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                             <li><strong>RETIRO EN TIENDA:</strong> SI.</li>
+                         </ul>
+                            <br>   
+                           </div>
+                           <div class="modal-footer">
+                          <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                          <button type="submit" class="btn btn-primary">Comprar</button>
+                          </div>
+                          </div>
+                          </div>
+                          </div>
+                          <!--Fin del modal 1-->                            
+                    </div>
+                    </div>
+                    </div>
+    
+    
+                     <!-- ACCESORIO 2:-->               
+                    <div class="col-md-4">
+                    <div class="card">
+                        <img src="../imagenes cuidado y farmacia/Accesorios 2.png" class="card-img-top" alt="bebedero gato 1">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">Bebedero Gato Flor</h5>
+                        <p class="card-text text-center">Haz click en el botón de abajo para tener más información sobre este producto.</p>
+                        <!-- Button trigger modal accesorios 2-->
+                        <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalC2">
+                            Ver Detalles
+                            </button>
+           
+                           <!-- Modal accesorios 2-->
+                           <div class="modal fade" id="modalC2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                           <div class="modal-dialog modal-dialog-scrollable">
+                           <div class="modal-content bg-color">
+                           <div class="modal-header bg-color">
+                           <h3 class="modal-title" id="staticBackdropLabel">Bebedero Gato Flor</h3>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                           <img src="../imagenes cuidado y farmacia/Accesorios 2.png" width="450px" height="300px">
+                           <br>
+                           <br>
+                           <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Bebedero para gatos con forma de flor marca CATIT, cuenta con sistema de riego tipo fuente. Consiente a tus gatitos asegurandote que siempre tengan agua fresca con este innovador accesorio. </p>
+                           <br>
+                           <ul>
+                             <li><strong>STOCK DISPONIBLE:</strong> 37 Unidades.</li>
+                             <li><strong>COD. PRODUCTO:</strong> CATIT-0283232</li>
+                             <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                             <li><strong>RETIRO EN TIENDA:</strong> SI.</li>
+                         </ul>
+                            <br>   
+                           </div>
+                           <div class="modal-footer">
+                          <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                          <button type="submit" class="btn btn-primary">Comprar</button>
+                          </div>
+                          </div>
+                          </div>
+                          </div>
+                          <!--Fin del modal 2-->                            
+                    </div>
+                    </div>
+                    </div>
+    
+    
+                    <!-- ACCESORIO 3:-->
+                    <div class="col-md-4">
+                    <div class="card">
+                        <img src="../imagenes cuidado y farmacia/C1.png" class="card-img-top" alt="c1">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">Tratamiento Anti Pulgas</h5>
+                        <p class="card-text text-center">Haz click en el botón de abajo para tener más información sobre este producto.</p>
+                        <!-- Button trigger modal accesorios 3 -->
+                        <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalC3">
+                            Ver Detalles
+                            </button>
+           
+                           <!-- Modal accesorios 3 -->
+                           <div class="modal fade" id="modalC3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                           <div class="modal-dialog modal-dialog-scrollable">
+                           <div class="modal-content bg-color">
+                           <div class="modal-header bg-color">
+                           <h3 class="modal-title" id="staticBackdropLabel">Tratamiento Anti Pulgas</h3>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                           <img src="../imagenes cuidado y farmacia/C1.png" width="450px" height="300px">
+                           <br>
+                           <br>
+                           <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Producto para tratamiento anti pulgas para gatos, manten a tus gatos excentos de las diversas enfermedades que pueden transmitir las pulgas.</p>
+                           <br>
+                           <ul>
+                            <li><strong>STOCK DISPONIBLE:</strong> 15 Unidades.</li>
+                            <li><strong>COD. PRODUCTO:</strong> CAM-GRR0283232</li>
+                            <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                            <li><strong>RETIRO EN TIENDA:</strong> SI.</li>
+                         </ul>
+                            <br>   
+                           </div>
+                           <div class="modal-footer">
+                          <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                          <button type="submit" class="btn btn-primary">Comprar</button>
+                          </div>
+                          </div>
+                          </div>
+                          </div>
+                          <!--Fin del modal 3-->                            
+                    </div>
+                    </div>
+                    </div>
+    
+    
+    
+    
+                    <!-- ACCESORIO 4:-->
+                    <div class="col-md-4">
+                    <div class="card">
+                        <img src="../imagenes cuidado y farmacia/C2.png" class="card-img-top" alt="4">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">Toallitas Húmedas Perro</h5>
+                        <p class="card-text text-center">Haz click en el botón de abajo para tener más información sobre este producto.</p>
+                        <!-- Button trigger modal accesorios 4 -->
+                        <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalC4">
+                            Ver Detalles
+                            </button>
+           
+                           <!-- Modal accesorios 4 -->
+                           <div class="modal fade" id="modalC4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                           <div class="modal-dialog modal-dialog-scrollable">
+                           <div class="modal-content bg-color">
+                           <div class="modal-header bg-color">
+                           <h3 class="modal-title" id="staticBackdropLabel">Toallitas Húmedas para Perro</h3>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                           <img src="../imagenes cuidado y farmacia/C2.png" width="450px" height="300px">
+                           <br>
+                           <br>
+                           <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Toallitas húmedas hidratantes especiales para las patitas, orejas y nariz de tus perritos.</p>
+                           <br>
+                           <ul>
+                             <li><strong>STOCK DISPONIBLE:</strong> 37 Unidades.</li>
+                             <li><strong>COD. PRODUCTO:</strong> PLT-YHG283232</li>
+                             <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                             <li><strong>RETIRO EN TIENDA:</strong> SI.</li>
+                         </ul>
+                            <br>   
+                           </div>
+                           <div class="modal-footer">
+                          <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                          <button type="submit" class="btn btn-primary">Comprar</button>
+                          </div>
+                          </div>
+                          </div>
+                          </div>
+                          <!--Fin del modal 4-->                            
+                    </div>
+                    </div>
+                    </div>
+    
+    
+                    <!-- ACCESORIO 5:-->
+                    <div class="col-md-4">
+                    <div class="card">
+                        <img src="../imagenes cuidado y farmacia/C3.png" class="card-img-top" alt="c5">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">Jabón Dermatológico Perro</h5>
+                        <p class="card-text text-center">Haz click en el botón de abajo para tener más información sobre este producto.</p>
+                        <!-- Button trigger modal accesorios 5 -->
+                        <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalC5">
+                            Ver Detalles
+                            </button>
+           
+                           <!-- Modal accesorios 5 -->
+                           <div class="modal fade" id="modalC5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                           <div class="modal-dialog modal-dialog-scrollable">
+                           <div class="modal-content bg-color">
+                           <div class="modal-header bg-color">
+                           <h3 class="modal-title" id="staticBackdropLabel">Jabón Dermatológico Perro</h3>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                           <img src="../imagenes cuidado y farmacia/C3.png" width="450px" height="300px">
+                           <br>
+                           <br>
+                           <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Jabón dermatológico para perros de uso exclusivo para tratamiento contra enfermedades de la piel. Venta única bajo prescripción de un veterinario.</p>
+                           <br>
+                           <ul>
+                             <li><strong>STOCK DISPONIBLE:</strong> 7 Unidades.</li>
+                             <li><strong>COD. PRODUCTO:</strong> CAS-PR0283414</li>
+                             <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                             <li><strong>RETIRO EN TIENDA:</strong> SI.</li>
+                         </ul>
+                            <br>   
+                           </div>
+                           <div class="modal-footer">
+                          <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                          <button type="submit" class="btn btn-primary">Comprar</button>
+                          </div>
+                          </div>
+                          </div>
+                          </div>
+                          <!--Fin del modal 5-->                            
+    
+                        </div>
+                    </div>
+                    </div>
+    
+    
+    
+                    <!-- ACCESORIO 6:-->
+                    <div class="col-md-4">
+                    <div class="card">
+                        <img src="../imagenes cuidado y farmacia/C4.png" class="card-img-top" alt="c4">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">Desparacitante Simparica</h5>
+                        <p class="card-text text-center">Haz click en el botón de abajo para tener más información sobre este producto.</p>
+                        <!-- Button trigger modal accesorios 6 -->
+                        <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalC6">
+                            Ver Detalles
+                            </button>
+           
+                           <!-- Modal accesorios 6 -->
+                           <div class="modal fade" id="modalC6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                           <div class="modal-dialog modal-dialog-scrollable">
+                           <div class="modal-content bg-color">
+                           <div class="modal-header bg-color">
+                           <h3 class="modal-title" id="staticBackdropLabel">Desparacitante Simparica</h3>
+                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                           <img src="../imagenes cuidado y farmacia/C4.png" width="450px" height="300px">
+                           <br>
+                           <br>
+                           <p class="modal-text"><strong>DESCRIPCIÓN DEL PRODUCTO:</strong> Desparacitante en formato de comprimidos masticables para tus perros mayores a 8 semanas de edad. Venta bajo prescripción de un veterinario.</p>
+                           <br>
+                           <ul>
+                             <li><strong>STOCK DISPONIBLE:</strong> 22 Unidades.</li>
+                             <li><strong>COD. PRODUCTO:</strong> DS-DTC0283232</li>
+                             <li><strong>ENVIO A DOMICILIO:</strong> SI.</li>
+                             <li><strong>RETIRO EN TIENDA:</strong> SI.</li>
+                         </ul>
+                            <br>   
+                           </div>
+                           <div class="modal-footer">
+                          <button type="carrito" class="btn btn-secondary" data-bs-dismiss="modal">Agregar al Carrito</button>
+                          <button type="submit" class="btn btn-primary">Comprar</button>
+                          </div>
+                          </div>
+                          </div>
+                          </div>
+                          <!--Fin del modal 6-->                            
+                    </div>
+                    </div>
+                    </div>
+    
+                
+                
+                
+            
+            </div>
+    </div> 
+    <br>
+
+
+
+
+    <br>
+    <div class="contenedor">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <img src="../Imagenes/Logo Tarjeta.png" alt="Logo" width="180" height="150">
+                  
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-12 text-center">
+                        <h3><strong>Mascotik Store</strong></h3>
+                        <p><strong>Correo electrónico:</strong> Contacto@Mascotik Store.com </p>
+                        <p><strong>Teléfono:</strong> +56966989578</p>
+                        <p><strong>Dirección:</strong> Santiago, Chile</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

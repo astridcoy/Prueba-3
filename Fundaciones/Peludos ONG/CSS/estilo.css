@@ -1,0 +1,83 @@
+
+#carouselExampleIndicators {
+    max-width: 100%; 
+}
+
+.card-img-top {
+    max-width: 200px; 
+    height: 200px; 
+}
+
+
+.accordion-content img {
+    max-width: 100%;
+    display: block; 
+    height: auto;
+    margin: 0 auto; 
+}
+.accordion-item {
+    background-color: #f0a7a7;
+    color: #fff;
+
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+.accordion-item .accordion-button  {
+    background-color: #ffffff!important; 
+    color: #467ec7!important; 
+}
+
+.accordion-item.accordion-button:hover {
+    background-color: #ffffff!important;; 
+}
+
+.accordion-item .accordion-button:focus,
+.accordion-item .accordion-button:active {
+    background-color: #ffffff!important;;
+}
+
+.accordion-item .accordion-button:not(:focus):not(:active) {
+    background-color: #ffffff!important;; 
+}
+
+.accordion-item .accordion-content{
+    background-color: #cff9ff!important; 
+    color: #000000!important; 
+
+}

@@ -1,0 +1,93 @@
+body {
+    
+    background-image: url('fondoPagina.jpg');
+    background-size: cover;
+    background-position: top left;
+    background-repeat: repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+.card-img-top {
+    max-width: 500px; 
+    height: 300px; 
+}
+
+.bg-color {
+    background-color: #90dfa2;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form{
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-primary[type="submit"]{
+    background-color: #fccc79;
+    color: #110f0f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.carousel-item  {
+    color: #110f0f;
+}
+
+button[type="submit"] {
+    background-color: #fccc79;
+    color: #110f0f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button[type="carrito"] {
+    background-color: #90dfa2;
+    color: #110f0f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button[type="submit"]:hover {
+    background-color: #b37100;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.contenedor {
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: rgba(199, 199, 199, 0.5);
+
+}
+
+.navbar {
+    padding: 10px 20px; 
+    height: 70px; 
+}
+
+.card {
+    width: 350px; 
+    height: 500%; 
+}

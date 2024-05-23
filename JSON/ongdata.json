@@ -1,0 +1,17 @@
+{
+    "fundaciones": [
+        {
+            "ImgFundacion": "../fundaciones/Fundacion 1.jpg",
+            "idFundacion": "1",
+            "strTitulo": "Fundacion Ayuda un Peludo ONG",
+            "strDescripcion": "Conoce Fundacion Ayuda un Peludo ONG, una de los lugares que apoyamos agracios a todos ustedes."
+        },
+        {
+            "ImgFundacion": "../fundaciones/Fundacion 2.jpg",
+            "idFundacion": "2",
+            "strTitulo": "Fundacion Patitas Felices ONG",
+            "strDescripcion": "Conoce Fundacion Patitas Felices ONG, una de los lugares que apoyamos agracios a todos ustedes."
+        }
+
+    ]
+}
