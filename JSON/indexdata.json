@@ -1,0 +1,41 @@
+{
+    "tienda": [
+        {
+            "ImgTienda": "../Imagenes/alimentomascotas1.jpg",
+            "idTienda": "1",
+            "strTitulo": "Alimentos",
+            "strDescripcion": "Contamos con las mejores marcas en alimentos para perros y gatos. Para que le brindes lo mejor de lo mejor a tus mascotas."
+        },
+        {
+            "ImgTienda": "../Imagenes/ropamascotas3.jpg",
+            "idTienda": "2",
+            "strTitulo": "Ropa",
+            "strDescripcion": "En nuestra tienda tenemos un amplio catálogo de estilos de ropa para tus mascotas. ¡Vistelos acorde a su personalidad!."
+        },
+        {
+            "ImgTienda": "../Imagenes/accesoriosmascotas1.jpg",
+            "idTienda": "3",
+            "strTitulo": "Accesorios",
+            "strDescripcion": "Contamos con juguetes y accesorios esenciales para la vida cotidiana de tus mascotas, para su entrenamiento y entretención."
+        },
+        {
+            "ImgTienda": "../Imagenes/cuidadobienestar1.jpg",
+            "idTienda": "4",
+            "strTitulo": "Cuidado y Bienestar",
+            "strDescripcion": "Sabemos que la salud de tus mascotas es lo más importante, es por ello que contamos con medicamentos, desparacitantes y más."
+        },
+        {
+            "ImgTienda": "../Imagenes/Bano.jpg",
+            "idTienda": "5",
+            "strTitulo": "Baño y Arena",
+            "strDescripcion": "Un lugar donde encontrar todo lo necesario para las necesidades de tus mascotas, baños sanitarios, arenas, entre otros."
+        },
+        {
+            "ImgTienda": "../Imagenes/exoticos.jpg",
+            "idTienda": "6",
+            "strTitulo": "Animales Exóticos",
+            "strDescripcion": "Porque entendemos que cada moscata es tan diferente como su dueño visita nuestra seccion animales exóticos."
+        }
+
+    ]
+}
