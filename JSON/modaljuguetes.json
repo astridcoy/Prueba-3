@@ -1,0 +1,76 @@
+{
+    "juguetes": [
+        {
+            "strTitulo": "KIT PELOTA + CUERDA",
+            "idRopa": "1",
+            "ImgRopa": "../imagenes accesorios y juguetes/Juguete 1.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Evita que tus perritos hagan destrozos en el hogar con este KIT de PELOTA + CUERDA, así se podrán divertir y desestresar al mismo tiempo.", 
+            "strPrecio": " ",
+            "strColores": "COLORES DISPONIBLES: Azul, Verde, Rojo.",
+            "strStock": "STOCK DISPONIBLE: 10 Unidades.",
+            "strCodigo": "COD. PRODUCTO: KIT-TER0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Cama Mascotas Polar",
+            "idRopa": "2",
+            "ImgRopa": "../imagenes accesorios y juguetes/Accesorios 4.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Consiente a tus perros (razas pequeñas) o gatos con esta hermosa y cómoda cama recubierta con polar. Accesorio ideal para la temporada de INVIERNO.", 
+            "strPrecio": " ",
+            "strColores": "COLORES DISPONIBLES: Beige.",
+            "strStock": "STOCK DISPONIBLE: 37 Unidades.",
+            "strCodigo": "COD. PRODUCTO: CAM-POLAR0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Cama Mascotas Grande",
+            "idRopa": "3",
+            "ImgRopa": "../imagenes accesorios y juguetes/Accesorios 6.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Consiente a tus perros de razas medianas y grandes con esta hermosa y cómoda cama recubierta con materiales térmicos de alta calidad. Ideal para la temporada de INVIERNO.", 
+            "strPrecio": " ",
+            "strColores": "COLORES DISPONIBLES: Gris, Beige, Azul.",
+            "strStock": "STOCK DISPONIBLE: 15 Unidades.",
+            "strCodigo": "COD. PRODUCTO: CAM-GRR0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Pelota Recargable",
+            "idRopa": "4",
+            "ImgRopa": "../imagenes accesorios y juguetes/Juguete 4.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Alegra la vida de tus gatitos con este innovador juguete, una pelota recargable que se desplaza de manera automática para que tenga un día lleno de entretención. (Se recarga mediante USB).", 
+            "strPrecio": " ",
+            "strColores": "COLORES DISPONIBLES: Azul, Verde Menta, Rojo.",
+            "strStock": "STOCK DISPONIBLE: 37 Unidades.",
+            "strCodigo": "COD. PRODUCTO: PLT-REC0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Casa para Perro",
+            "idRopa": "5",
+            "ImgRopa": "../imagenes accesorios y juguetes/Accesorios 5.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Casa para perros de material liviano y fácil de transportar. Apto para perros de razas pequeñas, medianas y grandes.", 
+            "strPrecio": " ",
+            "strColores": "COLORES DISPONIBLES: GRIS.",
+            "strStock": "STOCK DISPONIBLE: 7 Unidades.",
+            "strCodigo": "COD. PRODUCTO: CAS-PR0283414",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Juguete Didáctico",
+            "idRopa": "6",
+            "ImgRopa": "../imagenes accesorios y juguetes/Juguete 6.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Mantén a tu gatito libre de estrés y con mucha entretención con este JUGUETE DIDÁCTICO que fomenta el desarollo de sus habilidades motrices esenciales en su crecimiento.", 
+            "strPrecio": " ",
+            "strColores": "COLORES DISPONIBLES: Amarillo, Rojo, Azul.",
+            "strStock": "STOCK DISPONIBLE: 22 Unidades.",
+            "strCodigo": "COD. PRODUCTO: JUG-DTC0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        }
+    ]
+}
