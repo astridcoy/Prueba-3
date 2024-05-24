@@ -2,8 +2,8 @@
     "alimentos": [
         {
             "strTitulo": "WHISKAS ALIMENTO GATO ADULTO 3KG",
-            "idRopa": "1",
-            "ImgRopa": "../imagenes alimentos/Comida g 4.png",
+            "idAlimento": "1",
+            "ImgAlimento": "../imagenes alimentos/Comida g 4.png",
             "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Alimento Premium para gatos adultos (a partir de 1 año de edad) marca WHISKAS sabor pescado enriquecido con nutrientes.", 
             "strPrecio": " ",
             "strContenido": "CONTENIDO: 3KG",
@@ -14,8 +14,8 @@
         },
         {
             "strTitulo": "Comida Perro Purina Doko 5KG",
-            "idRopa": "2",
-            "ImgRopa": "../imagenes alimentos/Comida P 3.png",
+            "idAlimento": "2",
+            "ImgAlimento": "../imagenes alimentos/Comida P 3.png",
             "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Purina Doko, comida para cachorros, perros pequeños y medianos, de la más alta calidad. Enriquecido con carne, vegetales, cereales y leche.", 
             "strPrecio": " ",
             "strContenido": "CONTENIDO: 5KG",
@@ -26,8 +26,8 @@
         },
         {
             "strTitulo": "Alimento Premium Gato Senior Kailli's 3KG",
-            "idRopa": "3",
-            "ImgRopa": "../imagenes alimentos/Comida G 8.png",
+            "idAlimento": "3",
+            "ImgAlimento": "../imagenes alimentos/Comida G 8.png",
             "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Alimento para gatos en edad SENIOR marca Kailil's, comida premium a base de ingredientes naturales (sabor carne y vegetales). Cuida la salud de tus mascotas y mejora su calidad de vida con este alimento.", 
             "strPrecio": " ",
             "strContenido": "CONTENIDO: 3KG",
@@ -38,8 +38,8 @@
         },
         {
             "strTitulo": "Alimento Perro Senior Pedigree 8KG",
-            "idRopa": "4",
-            "ImgRopa": "../imagenes alimentos/Comida P 7.png",
+            "idAlimento": "4",
+            "ImgAlimento": "../imagenes alimentos/Comida P 7.png",
             "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Alimento para perros de razas grandes en edad SENIOR marca PEDIGREE, comida premium hecha con ingredientes de la más alta calidad (sabor carne, pollo y vegetales). Cuida la salud de tus mascotas y mejora su calidad de vida con este excelente alimento.", 
             "strPrecio": " ",
             "strContenido": "CONTENIDO: 8KG",
@@ -50,8 +50,8 @@
         },
         {
             "strTitulo": "Alimento Master Dog Cachorros 8KG",
-            "idRopa": "5",
-            "ImgRopa": "../imagenes alimentos/Comida P 2.png",
+            "idAlimento": "5",
+            "ImgAlimento": "../imagenes alimentos/Comida P 2.png",
             "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Cuida la salud de tus cachorritos con alimento premium MASTER DOG CACHORROS, contiene proteínas y vitaminas esenciales para su crecimiento. Sabor carne.", 
             "strPrecio": " ",
             "strContenido": "CONTENIDO: 8KG",
@@ -62,8 +62,8 @@
         },
         {
             "strTitulo": "Alimento Purina Dog Chow 24KG",
-            "idRopa": "6",
-            "ImgRopa": "../imagenes alimentos/Comida P 5.png",
+            "idAlimento": "6",
+            "ImgAlimento": "../imagenes alimentos/Comida P 5.png",
             "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Alimento PURINA DOG CHOW EXTRA LIFE, especial para cachorros y perros de razas medianas y grandes. Sabor a carne y pollo. Brindales lo mejor de lo mejor a tus consentidos.", 
             "strPrecio": " ",
             "strContenido": "CONTENIDO: 24KG",
