@@ -87,7 +87,7 @@
     $(document).ready(function() {
       function cargarDatos() {
           $.getJSON("../JSON/limpiezadata.json", function(data) {
-              $.each(data.ropa, function(index, datos) {
+              $.each(data.limpieza, function(index, datos) {
                   var nuevaTarjeta = $("<div class='card' style='width: 22rem;'>");
                   nuevaTarjeta.append("<img src='"  + datos.ImgLimpieza + "' class='card-img-top' alt='perrito " + datos.idLimpieza + "'>");
                   nuevaTarjeta.append("<p class='card-text text-center'><strong>" + datos.strTitulo + "</strong></p>");
@@ -95,7 +95,7 @@
                     ul.append("<li> " + datos.strDescripcion + "</li>");
                     ul.append("<li> Precio: " + datos.strPrecio + "</li>");
                   nuevaTarjeta.append(ul);
-                  nuevaTarjeta.append("<input type='button' class='btn btn-primary' value='Ver Detalles' id='enviar2'>");
+                  nuevaTarjeta.append("<input type='button' class='btn btn-primary' value='Ver Detalles' id='enviar'>");
                   $("#contenedor-baños").append(nuevaTarjeta);
               });
           });

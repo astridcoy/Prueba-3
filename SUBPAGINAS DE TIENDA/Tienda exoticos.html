@@ -90,7 +90,7 @@
     $(document).ready(function() {
       function cargarDatos() {
           $.getJSON("../JSON/exoticosdata.json", function(data) {
-              $.each(data.ropa, function(index, datos) {
+              $.each(data.exoticos, function(index, datos) {
                   var nuevaTarjeta = $("<div class='card' style='width: 22rem;'>");
                   nuevaTarjeta.append("<img src='"  + datos.ImgExoticos + "' class='card-img-top' alt='perrito " + datos.idExoticos + "'>");
                   nuevaTarjeta.append("<p class='card-text text-center'><strong>" + datos.strTitulo + "</strong></p>");
@@ -98,7 +98,7 @@
                     ul.append("<li> " + datos.strDescripcion + "</li>");
                     ul.append("<li> Precio: " + datos.strPrecio + "</li>");
                   nuevaTarjeta.append(ul);
-                  nuevaTarjeta.append("<input type='button' class='btn btn-primary' value='Ver Detalles' id='enviar1'>");
+                  nuevaTarjeta.append("<input type='button' class='btn btn-primary' value='Ver Detalles' id='enviar'>");
                   $("#contenedor-exoticos").append(nuevaTarjeta);
               });
           });
