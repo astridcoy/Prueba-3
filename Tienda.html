@@ -40,13 +40,13 @@
               <strong>Tienda</strong>  
               </a>
               <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda Ropa.html"><strong>Ropa</strong></a></li>
-              <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda Alimento.html"><strong>Alimentos</strong></a></li>
-              <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda Accesorios.html"><strong>Juguetes y Accesorios </strong></a></li>
-              <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda Cuidado.html"><strong>Cuidado y Farmacia</strong> </a></li>
-              <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda Baños.html"> <strong>Baños y limpieza</strong></a></li>
-              <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda exoticos.html"> <strong>Mascotas Exoticas</strong></a></li>
-              </ul>
+                <li><a class="dropdown-item" href="#" data-categoria="ropa"><strong>Ropa</strong></a></li>
+                <li><a class="dropdown-item" href="#" data-categoria="alimentos"><strong>Alimentos</strong></a></li>
+                <li><a class="dropdown-item" href="#" data-categoria="juguetes"><strong>Juguetes y Accesorios </strong></a></li>
+                <li><a class="dropdown-item" href="#" data-categoria="farmacia"><strong>Cuidado y Farmacia</strong> </a></li>
+                <li><a class="dropdown-item" href="#" data-categoria="limpieza"> <strong>Baños y limpieza</strong></a></li>
+                <li><a class="dropdown-item" href="#" data-categoria="exoticos"> <strong>Mascotas Exoticas</strong></a></li>
+                </ul>
             <li class="nav-item">
             <a class="nav-link" href="Donaciones.html"> <strong>Donaciones</strong></a>
             </li>
@@ -174,4 +174,37 @@
 
 
 </body>
+
+<script>
+    $(document).ready(function() {
+        function cargarDatos(categoria) {
+            $.getJSON("../JSON/allmodal.json", function(data) {
+                $.each(data[categoria], function(index, datos) {
+                    var nuevaTarjeta = $("<div class='card' style='width: 22rem;'>");
+                    nuevaTarjeta.append("<img src='"  + datos.ImgAlimento + "' class='card-img-top' alt='perrito " + datos.idAlimento + "'>");
+                    nuevaTarjeta.append("<p class='card-text text-center'><strong>" + datos.strTitulo + "</strong></p>");
+                    var ul = $("<ul>");
+                    ul.append("<li> " + datos.strDescripcion + "</li>");
+                    ul.append("<li> Precio: " + datos.strPrecio + "</li>");
+                    nuevaTarjeta.append(ul);
+                    nuevaTarjeta.append("<input type='button' class='btn btn-primary' value='Ver Detalles' id='enviar'>");
+                    $("#contenedor-tienda").append(nuevaTarjeta);
+                });
+            });
+        }
+        
+        // Evento de clic para los elementos del menú desplegable
+        $(".dropdown-item").click(function() {
+            // Obtener la categoría seleccionada
+            var categoria = $(this).data("categoria");
+            // Limpiar el contenedor antes de cargar nuevos datos
+            $("#contenedor-tienda").empty();
+            // Cargar datos según la categoría seleccionada
+            cargarDatos(categoria);
+        });
+    
+        // Por defecto, cargar datos de la categoría "alimentos"
+        cargarDatos("alimentos");
+    });
+    </script>
 </html>
