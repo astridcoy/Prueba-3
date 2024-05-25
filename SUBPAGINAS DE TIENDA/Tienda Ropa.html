@@ -10,7 +10,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>  
     <title>Mascotik Store</title>
 </head>
-
 <body>
     <nav id="navbar "class="navbar navbar-expand-lg bg-color" >
         <div class="container-fluid">
@@ -32,13 +31,13 @@
               <strong>Tienda</strong>  
               </a>
               <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="Tienda Ropa.html"><strong>Ropa</strong></a></li>
-              <li><a class="dropdown-item" href="Tienda Alimento.html"><strong>Alimentos</strong></a></li>
-              <li><a class="dropdown-item" href="Tienda Accesorios.html"><strong>Juguetes y Accesorios </strong></a></li>
-              <li><a class="dropdown-item" href="Tienda Cuidado.html"><strong>Cuidado y Farmacia</strong> </a></li>
-              <li><a class="dropdown-item" href="Tienda Baños.html"> <strong>Baños y limpieza</strong></a></li>
-              <li><a class="dropdown-item" href="Tienda exoticos.html"> <strong>Mascotas Exoticas</strong></a></li>
-              </ul>
+                <li><a class="dropdown-item" href="../Tienda.html"><strong>Ropa</strong></a></li>
+                <li><a class="dropdown-item" href="../Tienda.html"><strong>Alimentos</strong></a></li>
+                <li><a class="dropdown-item" href="../Tienda.html"><strong>Juguetes y Accesorios </strong></a></li>
+                <li><a class="dropdown-item" href="../Tienda.html"><strong>Cuidado y Farmacia</strong> </a></li>
+                <li><a class="dropdown-item" href="../Tienda.html"> <strong>Baños y limpieza</strong></a></li>
+                <li><a class="dropdown-item" href="../Tienda.html"> <strong>Mascotas Exoticas</strong></a></li>
+                </ul>
             <li class="nav-item">
             <a class="nav-link" href="../Donaciones.html"> <strong>Donaciones</strong></a>
             </li>
@@ -62,12 +61,13 @@
         <br>
     </div>
 
+    <div class= "modal fade" id="modal" tabindex="-1" aria-labelledby="examplemodallebel" aria-hidden="true" ></div>
+
     <div class="contenedor">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 d-flex align-items-center justify-content-center">
-                    <img src="../Imagenes/Logo Tarjeta.png" alt="Logo" width="180" height="150">
-                  
+                    <img src="../Imagenes/Logo Tarjeta.png" alt="Logo" width="180" height="150">   
                 </div>
                 <div class="col-md-6">
                     <div class="col-md-12 text-center">
@@ -81,27 +81,49 @@
         </div>
     </div>
 </body>
-
 <script>
     $(document).ready(function() {
       function cargarDatos() {
-          $.getJSON("../JSON/ropadata.json", function(data) {
+          $.getJSON("../JSON/allmodal.json", function(data) {
+            if (filtro=='ropa'){
+                id=idRopa,
+                nombre=Nombre
+            } else if (filtro=='alimento'){
+                id= idAlimento
+                nombre=nombreAlimento
+            }
               $.each(data.ropa, function(index, datos) {
                   var nuevaTarjeta = $("<div class='card' style='width: 22rem;'>");
-                  nuevaTarjeta.append("<img src='"  + datos.ImgRopa + "' class='card-img-top' alt='perrito " + datos.idRopa + "'>");
+                  nuevaTarjeta.append('<a href="#" valor-id="'+datos.idRopa+'" class="tarjetas" -bs-toggle="modal" -bs-target="#exampleModal"><div class="card" style="width: 15rem;"> <img src="'  + datos.ImgRopa + '" class="card-img-top" alt="perrito'  + datos.idRopa + '">');
                   nuevaTarjeta.append("<p class='card-text text-center'><strong>" + datos.strTitulo + "</strong></p>");
                   var ul = $("<ul>");
                     ul.append("<li> " + datos.strDescripcion + "</li>");
                     ul.append("<li> Precio: " + datos.strPrecio + "</li>");
                   nuevaTarjeta.append(ul);
-                  nuevaTarjeta.append("<input type='button' class='btn btn-primary' value='Ver Detalles' id='enviar'>");
+                  nuevaTarjeta.append("<input type='button' class='btn btn-primary' value='Ver Detalles'>");
                   $("#contenedor-ropa").append(nuevaTarjeta);
               });
-          });
-      }
-      cargarDatos();
-    });
 
+              $(".card").click(function() {
+                    var datos = $(this).attr("valor-id")
+                    mostrarModal(datos);
+                });
+            });
+        }
+
+        function mostrarModal(datos) {
+            var modalContenido = '<div class="modal-dialog"><div class="modal-content">';
+            modalContenido += '<div class="modal-header"><h1 class="modal-title fs-5">' + datos.strTitulo + '</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>';
+            modalContenido += '<div class="modal-body"><img src="' + datos.ImgRopa + '" style="width: 40%; height:40%;"><br><br>';
+            modalContenido += 'Descripción: ' + datos.strDescripcion + '<br>Precio: ' + datos.strPrecio + '</div>';
+            modalContenido += '<div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div></div></div>';
+            $("#modal").empty();
+            $("#modal").append(modalContenido);
+            $("#modal").modal("show");
+        }
+
+        cargarDatos();
+    });
 </script>
 
 </html>
