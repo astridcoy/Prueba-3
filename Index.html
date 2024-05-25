@@ -5,15 +5,53 @@
     <link rel="icon" type="image/x-icon" href="Imagenes/Logo Tarjeta.png">
     <link  href="CSS/estilo.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Agrego Libreria Jquery -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+     <!-- Agrego Bootstrap: -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+   
+   
     <title>Mascotik Store</title>
+
+     <!-- Inicio del Script - No cargar de nuevo la página: -->
+     <script>
+      
+      $(document).ready(function(){
+
+        // Se declara trigger y variable container:
+        var trigger = $('#navbar ul li a'),
+            container = $('#contenido');
+
+        // Cuando haga click:
+        trigger.on('click', function(){
+          // Declarar $this para re-usar. Declarar target:
+          var $this = $(this),
+              target = $this.data('target');
+              console.log(target);
+
+        // Cargar target pagina dentro del container: 
+        container.load(target + '.html');  
+
+        // Stop:
+        return false;
+
+        });
+      });
+
+     </script>
+
 </head> 
 
+
 <body>
-  <nav id="navbar "class="navbar navbar-expand-lg bg-color" >
+
+   <!-- Inicio del NAVBAR: -->
+  <nav id="navbar" class="navbar navbar-expand-lg bg-color" >
     <div class="container-fluid">
-    <a class="navbar-brand" href="Index.html">
+    <a class="navbar-brand" href="Index.html" data-target="index">
       <img src="Imagenes/Logo navbar.png" alt="Logo" width="100" height="70" class="d-inline-block align-text-center">
       <strong>Mascotik Store</strong>  
     </a>
@@ -25,36 +63,45 @@
         <li class="nav-item">
 
         <li class="nav-item">
-        <a class="nav-link" href="Nosotros.html"><strong>Nosotros</strong></a>
+        <a class="nav-link" href="Nosotros.html" data-target="nosotros"><strong>Nosotros</strong></a>
         <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="Tienda.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="Tienda.html" data-target="tienda" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           <strong>Tienda</strong>  
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="Tienda.html"><strong>Ropa</strong></a></li>
-            <li><a class="dropdown-item" href="Tienda.html"><strong>Alimentos</strong></a></li>
-            <li><a class="dropdown-item" href="Tienda.html"><strong>Juguetes y Accesorios </strong></a></li>
-            <li><a class="dropdown-item" href="Tienda.html"><strong>Cuidado y Farmacia</strong> </a></li>
-            <li><a class="dropdown-item" href="Tienda.html"> <strong>Baños y limpieza</strong></a></li>
-            <li><a class="dropdown-item" href="Tienda.html"> <strong>Mascotas Exoticas</strong></a></li>
-            </ul>
+          <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda Ropa.html" data-target="ropa"><strong>Ropa</strong></a></li>
+          <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda Alimento.html" data-target="alimentos"><strong>Alimentos</strong></a></li>
+          <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda Accesorios.html" data-target="juguetes"><strong>Juguetes y Accesorios </strong></a></li>
+          <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda Cuidado.html" data-target="cuidado"><strong>Cuidado y Farmacia</strong> </a></li>
+          <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda Baños.html" data-target="banolimpieza"> <strong>Baños y limpieza</strong></a></li>
+          <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda exoticos.html" data-target="exoticos"> <strong>Mascotas Exoticas</strong></a></li>
+          </ul>
         <li class="nav-item">
-        <a class="nav-link" href="Donaciones.html"> <strong>Donaciones</strong></a>
+        <a class="nav-link" href="Donaciones.html" data-target="donaciones"> <strong>Donaciones</strong></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Contacto.html"><strong>Contacto</strong></a>
-        </li>
-        
+          <a class="nav-link" href="Contacto.html" data-target="contacto"><strong>Contacto</strong></a>
+        </li>  
         </li>
         </ul>
+
+       <!-- BOTON - FORM. BUSQUEDA NAVBAR: -->
         <formSearch class="d-flex" role="Buscar">
         <input class="form-control me-2" type="Buscar" placeholder="¿Buscas algo especial?" aria-label="Buscar">
         <button class="btn btn-outline-success" type="submit">Buscar</button>
         </formSearch>
-    </div>
-    </div>
-</nav>
 
+    </div>
+    </div>
+
+</nav>
+    <!-- FIN del NAVBAR: -->
+
+
+<div id="contenido">
+  <?html include('index.html'); ?>
+
+</div>
 
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
