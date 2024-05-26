@@ -65,22 +65,31 @@
 
 <!-- INICIO DE FORMULARIO DE CONTACTO -->
 <form class="col-12 needs-validation" novalidate>
-    <div class="col-md-12">
-      <label for="validationDefault01" class="form-label">Nombre</label>
-      <input type="text" class="form-control" id="validationDefault01" value="" required>
+  <div class="col-md-12">
+    <label for="validationNombre" class="form-label">Nombre</label>
+    <input type="text" class="form-control" id="validationNombre" required pattern="[A-Za-zÀ-ÿ\s]+" title="El nombre debe contener solo letras y espacios.">
+    <div class="invalid-feedback">
+      Por favor, ingrese un nombre válido.
     </div>
+  </div>
 
 
-    <div class="col-md-12">
-      <label for="validationDefault02" class="form-label">Apellido</label>
-      <input type="text" class="form-control" id="validationDefault02" value="" required>
+  <div class="col-md-12">
+    <label for="validationApellido" class="form-label">Apellido</label>
+    <input type="text" class="form-control" id="validationApellido" required pattern="[A-Za-zÀ-ÿ\s]+" title="El apellido debe contener solo letras y espacios.">
+    <div class="invalid-feedback">
+      Por favor, ingrese un apellido válido.
     </div>
+  </div>
 
-
-    <div class="col-md-12">
-      <label for="validationDefault03" class="form-label">Correo</label>
-      <input type="email" class="form-control" id="validationDefault03" required>
+  
+  <div class="col-md-12">
+    <label for="validationCorreo" class="form-label">Correo</label>
+    <input type="text" class="form-control" id="validationCorreo" required pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" title="El correo debe tener el siguiente formato: correo@dominio.com">
+    <div class="invalid-feedback">
+      Por favor, ingrese un correo válido.
     </div>
+  </div>
 
 
   
@@ -96,6 +105,9 @@
         <option>100.000</option>
         <option>500.000</option>
       </select>
+      <div class="invalid-feedback">
+        Por favor, seleccione un monto a donar.
+      </div>
     </div>
 
     <div class="col-md-12">
@@ -106,21 +118,27 @@
           <option>Débito</option>
           <option>Crédito</option>
         </select>
+        <div class="invalid-feedback">
+          Por favor, seleccione un metodo de pago.
+        </div>
       </div>
 
 
-    <div class="col-md-12">
-      <label for="validationDefaultTelefono" class="form-label">Telefono</label>
-      <div class="input-group has-validation">
-      <span class="input-group-text" id="inputGroupPrepend3">+56</span>
-      <input type="text" class="form-control" id="validationDefaultTelefono" aria-describedby="inputGroupPrepend3 validationDefaultTelefonoFeedback" required>
+      <div class="col-md-12">
+        <label for="validationTelefono" class="form-label">Teléfono</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend3">+56</span>
+          <input type="tel" class="form-control" id="validationTelefono" aria-describedby="inputGroupPrepend3 validationDefaultTelefonoFeedback" required pattern="[0-9]{9}" title="El teléfono debe contener 9 dígitos.">
+          <div class="invalid-feedback">
+            Por favor, ingrese un número de teléfono válido.
+          </div>
+        </div>
       </div>
-    </div>
 
 
       <div class="col-md-12">
         <label for="validationDefault05" class="form-label">Mensaje</label>
-        <input type="text" class="form-control" id="validationDefault06" required>
+        <textarea type="text" class="form-control" id="validationDefault06" cols="10" rows="5" ></textarea>
       </div>
 
 
