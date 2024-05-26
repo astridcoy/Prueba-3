@@ -16,32 +16,33 @@
    
     <title>Mascotik Store</title>
 
-     <!-- Inicio del Script - No cargar de nuevo la página: -->
-     <script>
+           <!-- Inicio del Script - No cargar de nuevo la página: -->
+           <script>
       
-      $(document).ready(function(){
+            $(document).ready(function(){
+      
+              // Se declara trigger y variable container:
+              var trigger = $('#navbar ul li a'),
+                  container = $('#contenido');
+      
+              // Cuando haga click:
+              trigger.on('click', function(){
+                // Declarar $this para re-usar. Declarar target:
+                var $this = $(this),
+                    target = $this.data('target');
+                    console.log(target);
+      
+              // Cargar target pagina dentro del container: 
+              container.load(target + '.html');  
+      
+              // Stop:
+              return false;
+      
+              });
+            });
+      
+           </script>
 
-        // Se declara trigger y variable container:
-        var trigger = $('#navbar ul li a'),
-            container = $('#contenido');
-
-        // Cuando haga click:
-        trigger.on('click', function(){
-          // Declarar $this para re-usar. Declarar target:
-          var $this = $(this),
-              target = $this.data('target');
-              console.log(target);
-
-        // Cargar target pagina dentro del container: 
-        container.load(target + '.html');  
-
-        // Stop:
-        return false;
-
-        });
-      });
-
-     </script>
 
 </head> 
 
@@ -96,12 +97,12 @@
 
 </nav>
    <!-- FIN del NAVBAR: -->
-
-   <div id="contenido">
-    <?html include('index.html'); ?>
   
   </div>
 
+  <div id="contenido">
+    <?html include('Index.html'); ?>
+  </div>
 
 </div>
 
@@ -269,6 +270,10 @@
       </div>
   </div>
 
+
 </body>
+
+
+
 </html>
 
