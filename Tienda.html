@@ -29,7 +29,7 @@
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     </div>
-     
+     <br>
 </body>
 
 <script>
@@ -37,7 +37,7 @@
         function cargarDatos(categoria) {
             $.getJSON("../JSON/allmodal.json", function(data) {
                 $.each(data[categoria], function(index, datos) {
-                    var nuevaTarjeta = $("<div class='card tarjetas' style='width: 22rem;' valor-id='" + datos.id + "'>");
+                    var nuevaTarjeta = $("<div class='card tarjetas mb-3 me-3' style='width: 22rem;' valor-id='" + datos.id + "'>");
                     nuevaTarjeta.append("<img src='"  + datos.Img + "' class='card-img-top' alt='perrito " + datos.id + "'>");
                     nuevaTarjeta.append("<p class='card-text text-center'><strong>" + datos.strTitulo + "</strong></p>");
                     var ul = $("<ul>");
@@ -47,7 +47,7 @@
                     nuevaTarjeta.append("<input type='button' class='btn btn-primary' value='Ver Detalles'>");
                     nuevaTarjeta.click(function(){
                         $("#exampleModal").empty()
-                        $("#exampleModal").append('<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-5" id="exampleModalLabel">' + datos.strTitulo + '</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><img src="' + datos.Img + '" style="width: 40%; height:40%;"><br><br>' + datos.strTitulo + '<br>' + datos.strDescripcion + '<br>Precio: ' + datos.strPrecio + '</div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div></div></div>')
+                        $("#exampleModal").append('<div class="modal-dialog bg-color"><div class="modal-content"><div class="modal-header bg-color"> <h1 class="modal-title fs-4" id="exampleModalLabel">' + datos.strTitulo + '</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div> <div class="modal-body"><img src="' + datos.Img + '" style="width: 465px; height:300px;"> <br><strong>DESCRIPCIÓN DEL PRODUCTO:</strong>' + datos.strDescripcion + '<br> <br><strong>PRECIO:</strong> ' + datos.strPrecio + '</div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Comprar</button></div></div></div>')
                         $("#exampleModal").modal("show")
                     });
                     $("#contenedor-tienda").append(nuevaTarjeta);
