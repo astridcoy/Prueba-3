@@ -1,0 +1,453 @@
+{
+    "alimentos": [
+        {
+            "strTitulo": "WHISKAS ALIMENTO GATO ADULTO 3KG",
+            "id": "1",
+            "Img": "../imagenes alimentos/Comida g 4.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Alimento Premium para gatos adultos (a partir de 1 año de edad) marca WHISKAS sabor pescado enriquecido con nutrientes.", 
+            "strPrecio": " ",
+            "strContenido": "CONTENIDO: 3KG",
+            "strStock": "STOCK DISPONIBLE: 5 Unidades.",
+            "strCodigo": "COD. PRODUCTO: WHI-CAT0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Comida Perro Purina Doko 5KG",
+            "id": "2",
+            "Img": "../imagenes alimentos/Comida P 3.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Purina Doko, comida para cachorros, perros pequeños y medianos, de la más alta calidad. Enriquecido con carne, vegetales, cereales y leche.", 
+            "strPrecio": " ",
+            "strContenido": "CONTENIDO: 5KG",
+            "strStock": "STOCK DISPONIBLE: 19 Unidades.",
+            "strCodigo": "COD. PRODUCTO: DOKO-PUR028323",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Alimento Premium Gato Senior Kailli's 3KG",
+            "id": "3",
+            "Img": "../imagenes alimentos/Comida G 8.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Alimento para gatos en edad SENIOR marca Kailil's, comida premium a base de ingredientes naturales (sabor carne y vegetales). Cuida la salud de tus mascotas y mejora su calidad de vida con este alimento.", 
+            "strPrecio": " ",
+            "strContenido": "CONTENIDO: 3KG",
+            "strStock": "STOCK DISPONIBLE: 27 Unidades.",
+            "strCodigo": "COD. PRODUCTO: KHA-CAT0208732",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Alimento Perro Senior Pedigree 8KG",
+            "id": "4",
+            "Img": "../imagenes alimentos/Comida P 7.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Alimento para perros de razas grandes en edad SENIOR marca PEDIGREE, comida premium hecha con ingredientes de la más alta calidad (sabor carne, pollo y vegetales). Cuida la salud de tus mascotas y mejora su calidad de vida con este excelente alimento.", 
+            "strPrecio": " ",
+            "strContenido": "CONTENIDO: 8KG",
+            "strStock": "STOCK DISPONIBLE: 10 Unidades.",
+            "strCodigo": "COD. PRODUCTO: PEDG-DOGFJH3232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Alimento Master Dog Cachorros 8KG",
+            "id": "5",
+            "Img": "../imagenes alimentos/Comida P 2.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Cuida la salud de tus cachorritos con alimento premium MASTER DOG CACHORROS, contiene proteínas y vitaminas esenciales para su crecimiento. Sabor carne.", 
+            "strPrecio": " ",
+            "strContenido": "CONTENIDO: 8KG",
+            "strStock": "STOCK DISPONIBLE: 100 Unidades.",
+            "strCodigo": "COD. PRODUCTO: MDOG-C0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Alimento Purina Dog Chow 24KG",
+            "id": "6",
+            "Img": "../imagenes alimentos/Comida P 5.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Alimento PURINA DOG CHOW EXTRA LIFE, especial para cachorros y perros de razas medianas y grandes. Sabor a carne y pollo. Brindales lo mejor de lo mejor a tus consentidos.", 
+            "strPrecio": " ",
+            "strContenido": "CONTENIDO: 24KG",
+            "strStock": "STOCK DISPONIBLE: 15 Unidades.",
+            "strCodigo": "COD. PRODUCTO: PUR-DOGC83232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        }
+    ],
+    "exoticos": [
+        {
+            "strTitulo": "Casita Madera",
+            "id": "1",
+            "Img": "../imagenes exoticos/Exotico 1.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Casita de madera para hamsters o chinchillas.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 11 Unidades.",
+            "strCodigo": "COD. PRODUCTO: GT0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+
+        },
+        {
+            "strTitulo": "Alimento para Hurones",
+            "id": "2",
+            "Img": "../imagenes exoticos/Exotico 2.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Alimento premium para Hurones de diferentes edades.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 20 Unidades.",
+            "strCodigo": "COD. PRODUCTO: AHTR-0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+
+        },
+        {
+            "strTitulo": "Pecera Con Luces",
+            "id": "3",
+            "Img": "../imagenes exoticos/Exotico 3.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Pecera de vidrio templado con luces led que se pueden intercambiar mediante APP LightFish.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 25 Unidades.",
+            "strCodigo": "COD. PRODUCTO: PZ-GRR0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+
+        },
+        {
+            "strTitulo": "Alimento para Peces",
+            "id": "4",
+            "Img": "../imagenes exoticos/Exotico 4.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Alimento para peces de la mejor calidad marca TETRA GOLDFISH.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 87 Unidades.",
+            "strCodigo": "COD. PRODUCTO: TG-FISH283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+
+        },
+        {
+            "strTitulo": "Alimento para Hamster",
+            "id": "5",
+            "Img": "../imagenes exoticos/Exotico 5.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Alimento para hamster TROPIFIT, bolsa de 250GRS.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 19 Unidades.",
+            "strCodigo": "COD. PRODUCTO: HM0-283414",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+
+        },
+        {
+            "strTitulo": "Alimento para Canarios",
+            "id": "6",
+            "Img": "../imagenes exoticos/Exotico 6.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Alimento para canarios marca CHAMPION de la líne Mini Pets, cuida la salud de tus aves, con este alimento de alta calidad hecho a base de ingredientes naturales.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 202 Unidades.",
+            "strCodigo": "COD. PRODUCTO: CNRO-ALC0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+
+        }
+    ],
+    "farmacia": [
+        {
+            "strTitulo": "Jaula Multiniveles Gato",
+            "idF": "1",
+            "Img": "../imagenes cuidado y farmacia/Accesorios 1.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Jaula para gatos con multiples plataformas, ideal para cuando tienes más de un gato y quieres fomentar una buena convivencia entre ellos.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 11 Unidades.",
+            "strCodigo": "COD. PRODUCTO: PLT-GT0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Bebedero Gato Flor",
+            "id": "2",
+            "Img": "../imagenes cuidado y farmacia/Accesorios 2.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Bebedero para gatos con forma de flor marca CATIT, cuenta con sistema de riego tipo fuente. Consiente a tus gatitos asegurandote que siempre tengan agua fresca con este innovador accesorio.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 30 Unidades.",
+            "strCodigo": "COD. PRODUCTO: CATIT-0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Tratamiento Anti Pulgas",
+            "id": "3",
+            "Img": "../imagenes cuidado y farmacia/C1.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Producto para tratamiento anti pulgas para gatos, manten a tus gatos excentos de las diversas enfermedades que pueden transmitir las pulgas.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 15 Unidades.",
+            "strCodigo": "COD. PRODUCTO: CAM-GRR0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Toallitas Húmedas para Perro",
+            "id": "4",
+            "Img": "../imagenes cuidado y farmacia/C2.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Toallitas húmedas hidratantes especiales para las patitas, orejas y nariz de tus perritos.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 37 Unidades.",
+            "strCodigo": "COD. PRODUCTO: PLT-YHG283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Jabón Dermatológico Perro",
+            "id": "5",
+            "Img": "../imagenes cuidado y farmacia/C3.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Jabón dermatológico para perros de uso exclusivo para tratamiento contra enfermedades de la piel. Venta única bajo prescripción de un veterinario.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 7 Unidades.",
+            "strCodigo": "COD. PRODUCTO: CAS-PR0283414",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Desparacitante Simparica",
+            "id": "6",
+            "Img": "../imagenes cuidado y farmacia/C4.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Desparacitante en formato de comprimidos masticables para tus perros mayores a 8 semanas de edad. Venta bajo prescripción de un veterinario.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 22 Unidades.",
+            "strCodigo": "COD. PRODUCTO: DS-DTC0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        }
+
+    ],
+    "juguetes": [
+        {
+            "strTitulo": "KIT PELOTA + CUERDA",
+            "id": "1",
+            "Img": "../imagenes accesorios y juguetes/Juguete 1.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Evita que tus perritos hagan destrozos en el hogar con este KIT de PELOTA + CUERDA, así se podrán divertir y desestresar al mismo tiempo.", 
+            "strPrecio": " ",
+            "strColores": "COLORES DISPONIBLES: Azul, Verde, Rojo.",
+            "strStock": "STOCK DISPONIBLE: 10 Unidades.",
+            "strCodigo": "COD. PRODUCTO: KIT-TER0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Cama Mascotas Polar",
+            "id": "2",
+            "Img": "../imagenes accesorios y juguetes/Accesorios 4.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Consiente a tus perros (razas pequeñas) o gatos con esta hermosa y cómoda cama recubierta con polar. Accesorio ideal para la temporada de INVIERNO.", 
+            "strPrecio": " ",
+            "strColores": "COLORES DISPONIBLES: Beige.",
+            "strStock": "STOCK DISPONIBLE: 37 Unidades.",
+            "strCodigo": "COD. PRODUCTO: CAM-POLAR0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Cama Mascotas Grande",
+            "id": "3",
+            "Img": "../imagenes accesorios y juguetes/Accesorios 6.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Consiente a tus perros de razas medianas y grandes con esta hermosa y cómoda cama recubierta con materiales térmicos de alta calidad. Ideal para la temporada de INVIERNO.", 
+            "strPrecio": " ",
+            "strColores": "COLORES DISPONIBLES: Gris, Beige, Azul.",
+            "strStock": "STOCK DISPONIBLE: 15 Unidades.",
+            "strCodigo": "COD. PRODUCTO: CAM-GRR0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Pelota Recargable",
+            "id": "4",
+            "Img": "../imagenes accesorios y juguetes/Juguete 4.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Alegra la vida de tus gatitos con este innovador juguete, una pelota recargable que se desplaza de manera automática para que tenga un día lleno de entretención. (Se recarga mediante USB).", 
+            "strPrecio": " ",
+            "strColores": "COLORES DISPONIBLES: Azul, Verde Menta, Rojo.",
+            "strStock": "STOCK DISPONIBLE: 37 Unidades.",
+            "strCodigo": "COD. PRODUCTO: PLT-REC0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Casa para Perro",
+            "id": "5",
+            "Img": "../imagenes accesorios y juguetes/Accesorios 5.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Casa para perros de material liviano y fácil de transportar. Apto para perros de razas pequeñas, medianas y grandes.", 
+            "strPrecio": " ",
+            "strColores": "COLORES DISPONIBLES: GRIS.",
+            "strStock": "STOCK DISPONIBLE: 7 Unidades.",
+            "strCodigo": "COD. PRODUCTO: CAS-PR0283414",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "Juguete Didáctico",
+            "id": "6",
+            "Img": "../imagenes accesorios y juguetes/Juguete 6.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Mantén a tu gatito libre de estrés y con mucha entretención con este JUGUETE DIDÁCTICO que fomenta el desarollo de sus habilidades motrices esenciales en su crecimiento.", 
+            "strPrecio": " ",
+            "strColores": "COLORES DISPONIBLES: Amarillo, Rojo, Azul.",
+            "strStock": "STOCK DISPONIBLE: 22 Unidades.",
+            "strCodigo": "COD. PRODUCTO: JUG-DTC0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        }
+    ],
+    "limpieza": [
+        {
+            "strTitulo": "Arena Sanitaria Bengala",
+            "id": "1",
+            "Img": "../imagenes banos y limpieza/arena1.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Arena sanitaria BENGALA de la más alta calidad, de rápida absorción y evita malos olores. Brinda lo mejor de lo mejor a tus gatitos.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 11 Unidades.",
+            "strCodigo": "COD. PRODUCTO: PLT-GT0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+
+        },
+        {
+            "strTitulo": "Arena Sanitaria MicroCrystals",
+            "id": "2",
+            "Img": "../imagenes banos y limpieza/arena2.jpg",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Arena sanitaria con microcristales que evita los malos olores y asegura una absorción eficaz.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 20 Unidades.",
+            "strCodigo": "COD. PRODUCTO: AHTR-0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+
+        },
+        {
+            "strTitulo": "Arena Sanitaria Americalitter",
+            "id": "3",
+            "Img": "../imagenes banos y limpieza/arena3.jpg",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Americalitter es una marca líder en arenas sanitarias para gato, esta arena está compuesta por microparticulas que evitan los malos olores y suciedad fuera del arenero.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 15 Unidades.",
+            "strCodigo": "COD. PRODUCTO: AME-GRR0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+
+        },
+        {
+            "strTitulo": "Arenero Plástico",
+            "id": "4",
+            "Img": "../imagenes banos y limpieza/arenero2.jpg",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Arenero de plástico marca CAT'S LIFE desmontable, incluye palita para limpieza.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 7 Unidades.",
+            "strCodigo": "COD. PRODUCTO: AR-YHG283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+
+        },
+        {
+            "strTitulo": "KIT Arenero + Arenas Sanitarias",
+            "id": "5",
+            "Img": "../imagenes banos y limpieza/kitarenero.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Kit de arenero + 3 bolsas de arenas sanitarias de 2KG cada una, calidad premium.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 17 Unidades.",
+            "strCodigo": "COD. PRODUCTO: PR80-283414",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+
+        },
+        {
+            "strTitulo": "Arenero Easy Clean",
+            "id": "6",
+            "Img": "../imagenes banos y limpieza/Accesorios 3.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Easy Clean es una marca líder en productos de aseo para gatitos, con este arenero podrás facilitar la limpieza cotidiana.", 
+            "strPrecio": " ",
+            "strStock": "STOCK DISPONIBLE: 22 Unidades.",
+            "strCodigo": "COD. PRODUCTO: DS-DTC0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+
+        }
+    ],
+    "ropa": [
+        {
+            "strTitulo": "CAMISA GUAYABERA VERANO",
+            "id": "1",
+            "Img": "../imagenes ropa/ropa1.jpg",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Hermosa camisa guayabera con diseños hawaianos, ideal para la temporada de verano. Disponible sólo en el color referencial de la imagen. Contamos con todas las tallas disponibles y es apto tanto para perros como para gatos.", 
+            "strPrecio": " ",
+            "strTalla": "TALLAS DISPONIBLES: S, M, L, XL, XXL.",
+            "strColor": "COLORES DISPONIBLES: Estampado referencial.",
+            "strTela": "TIPO DE TELA: 40% Algodón - 60% Poliéster.",
+            "strStock": "STOCK DISPONIBLE: 25 Unidades.",
+            "strCodigo": "COD. PRODUCTO: GUAY-VER56322",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "CAMISA ESTAMPADA UNISEX",
+            "id": "2",
+            "Img": "../imagenes ropa/ropa2.jpg",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Hermosa camisa con estampados unisex de cuello italiano, para que vistas a tu mascota con estilo y a la moda. Contamos con todas las tallas disponibles y es apto tanto para perros como para gatos.", 
+            "strPrecio": " ",
+            "strTalla": "TALLAS DISPONIBLES: S, M, L, XL, XXL.",
+            "strColor": "COLORES DISPONIBLES: Estampado referencial.",
+            "strTela": "TIPO DE TELA: 100% Algodón.",
+            "strStock": "STOCK DISPONIBLE: 100 Unidades.",
+            "strCodigo": "COD. PRODUCTO: HFVGGHS56322",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "CHALECO METALIZADO",
+            "id": "3",
+            "Img": "../imagenes ropa/ropa3.png",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Chaleco tipo parka metalizado, ideal para la temporada OTOÑO-INVIERNO para que mantengas a tu mascota abrigada y protegida del frío.", 
+            "strPrecio": " ",
+            "strTalla": "TALLAS DISPONIBLES: S, M, L.",
+            "strColor": "COLORES DISPONIBLES: Rosado, Dorado, Rojo.",
+            "strTela": "TIPO DE TELA: 100% Poliéster.",
+            "strStock": "STOCK DISPONIBLE: 50 Unidades.",
+            "strCodigo": "COD. PRODUCTO: CHA-MET56232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: NO."
+        },
+        {
+            "strTitulo": "CONJUNTO TERMICO",
+            "id": "4",
+            "Img": "../imagenes ropa/ropa4.jpg",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Conjunto cuerpo entero térmico unisex, ideal para la temporada de INVIERNO para que mantengas a tu mascota abrigada y protegida del frío. Disponible en todas las tallas, apto para perros de razas grandes o pequeñas.", 
+            "strPrecio": " ",
+            "strTalla": "TALLAS DISPONIBLES: S, M, L, XL, XXL, XXXL.",
+            "strColor": "COLORES DISPONIBLES: Azul, Verde, Negro.",
+            "strTela": "TIPO DE TELA: 100% Poliéster.",
+            "strStock": "STOCK DISPONIBLE: 37 Unidades.",
+            "strCodigo": "COD. PRODUCTO: PAR-TER0283232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "VESTIDO LENTEJUELAS",
+            "id": "5",
+            "Img": "../imagenes ropa/ropa5.jpg",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Vestido de lentejuelas con lazo en la parte trasera, ideal para las más consentidas de la casa. Disponible en todas las tallas, apto para perros de razas pequeñas y gatos.", 
+            "strPrecio": " ",
+            "strTalla": "TALLAS DISPONIBLES: S, M.",
+            "strColor": "COLORES DISPONIBLES: Rosado.",
+            "strTela": "TIPO DE TELA: 100% Poliéster.",
+            "strStock": "STOCK DISPONIBLE: 15 Unidades.",
+            "strCodigo": "COD. PRODUCTO: VES-LENT0583232",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        },
+        {
+            "strTitulo": "JARDINERA MARINERO",
+            "id": "6",
+            "Img": "../imagenes ropa/ropa6.jpg",
+            "strDescripcion": "DESCRIPCIÓN DEL PRODUCTO: Conjunto de polera y jardinera con diseño tipo MARINERO, ideal para cachorros o gatos.", 
+            "strPrecio": " ",
+            "strTalla": "TALLAS DISPONIBLES: S.",
+            "strColor": "COLORES DISPONIBLES: Azul marino.",
+            "strTela": "TIPO DE TELA: 100% Algodón.",
+            "strStock": "STOCK DISPONIBLE: 38 Unidades.",
+            "strCodigo": "COD. PRODUCTO: JAR-MAR86732",
+            "strEnvio": "ENVIO A DOMICILIO: SI.",
+            "strRetiro": "RETIRO EN TIENDA: SI."
+        }
+    ]
+}
