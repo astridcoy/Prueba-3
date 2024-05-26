@@ -7,10 +7,10 @@
             "strDescripcion": "Alimento Premium para gatos adultos (a partir de 1 año de edad) marca WHISKAS sabor pescado enriquecido con nutrientes.", 
             "strPrecio": "$15.990",
             "strDetalle": "CONTENIDO: 3KG",
-            "strStock": "STOCK DISPONIBLE: 5 Unidades.",
-            "strCodigo": "COD. PRODUCTO: WHI-CAT0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "5 Unidades.",
+            "strCodigo": "WHI-CAT0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "Comida Perro Purina Doko 5KG",
@@ -19,10 +19,10 @@
             "strDescripcion": "Purina Doko, comida para cachorros, perros pequeños y medianos, de la más alta calidad. Enriquecido con carne, vegetales, cereales y leche.", 
             "strPrecio": "$14.990",
             "strDetalle": "CONTENIDO: 5KG",
-            "strStock": "STOCK DISPONIBLE: 19 Unidades.",
-            "strCodigo": "COD. PRODUCTO: DOKO-PUR028323",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "19 Unidades.",
+            "strCodigo": "DOKO-PUR028323",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "Alimento Premium Gato Senior Kailli's 3KG",
@@ -31,10 +31,10 @@
             "strDescripcion": "Alimento para gatos en edad SENIOR marca Kailil's, comida premium a base de ingredientes naturales (sabor carne y vegetales). Cuida la salud de tus mascotas y mejora su calidad de vida con este alimento.", 
             "strPrecio": "$22.990",
             "strDetalle": "CONTENIDO: 3KG",
-            "strStock": "STOCK DISPONIBLE: 27 Unidades.",
-            "strCodigo": "COD. PRODUCTO: KHA-CAT0208732",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "27 Unidades.",
+            "strCodigo": "KHA-CAT0208732",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "Alimento Perro Senior Pedigree 8KG",
@@ -43,10 +43,10 @@
             "strDescripcion": "Alimento para perros de razas grandes en edad SENIOR marca PEDIGREE, comida premium hecha con ingredientes de la más alta calidad (sabor carne, pollo y vegetales). Cuida la salud de tus mascotas y mejora su calidad de vida con este excelente alimento.", 
             "strPrecio": "$32.990",
             "strDetalle": "CONTENIDO: 8KG",
-            "strStock": "STOCK DISPONIBLE: 10 Unidades.",
-            "strCodigo": "COD. PRODUCTO: PEDG-DOGFJH3232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "10 Unidades.",
+            "strCodigo": "PEDG-DOGFJH3232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "Alimento Master Dog Cachorros 8KG",
@@ -55,10 +55,10 @@
             "strDescripcion": "Cuida la salud de tus cachorritos con alimento premium MASTER DOG CACHORROS, contiene proteínas y vitaminas esenciales para su crecimiento. Sabor carne.", 
             "strPrecio": "$18.990",
             "strDetalle": "CONTENIDO: 8KG",
-            "strStock": "STOCK DISPONIBLE: 100 Unidades.",
-            "strCodigo": "COD. PRODUCTO: MDOG-C0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "100 Unidades.",
+            "strCodigo": "MDOG-C0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "Alimento Purina Dog Chow 24KG",
@@ -67,10 +67,10 @@
             "strDescripcion": "Alimento PURINA DOG CHOW EXTRA LIFE, especial para cachorros y perros de razas medianas y grandes. Sabor a carne y pollo. Brindales lo mejor de lo mejor a tus consentidos.", 
             "strPrecio": "$35.990",
             "strDetalle": "CONTENIDO: 24KG",
-            "strStock": "STOCK DISPONIBLE: 15 Unidades.",
-            "strCodigo": "COD. PRODUCTO: PUR-DOGC83232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "15 Unidades.",
+            "strCodigo": "PUR-DOGC83232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         }
     ],
     "exoticos": [
@@ -81,10 +81,10 @@
             "strDescripcion": "Casita de madera para hamsters o chinchillas.", 
             "strPrecio": "$25.990",
             "strDetalle": "DETALLE DEL PRODUCTO:",
-            "strStock": "STOCK DISPONIBLE: 11 Unidades.",
-            "strCodigo": "COD. PRODUCTO: GT0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "11 Unidades.",
+            "strCodigo": "GT0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
 
         },
         {
@@ -94,10 +94,10 @@
             "strDescripcion": "Alimento premium para Hurones de diferentes edades.", 
             "strPrecio": "$16.990",
             "strDetalle": "CONTENIDO: 2KG",
-            "strStock": "STOCK DISPONIBLE: 20 Unidades.",
-            "strCodigo": "COD. PRODUCTO: AHTR-0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "20 Unidades.",
+            "strCodigo": "AHTR-0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
 
         },
         {
@@ -107,10 +107,10 @@
             "strDescripcion": "Pecera de vidrio templado con luces led que se pueden intercambiar mediante APP LightFish.", 
             "strPrecio": "$150.000",
             "strDetalle": "DETALLE DEL PRODUCTO:",
-            "strStock": "STOCK DISPONIBLE: 25 Unidades.",
-            "strCodigo": "COD. PRODUCTO: PZ-GRR0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "25 Unidades.",
+            "strCodigo": "PZ-GRR0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
 
         },
         {
@@ -120,10 +120,10 @@
             "strDescripcion": "Alimento para peces de la mejor calidad marca TETRA GOLDFISH.", 
             "strPrecio": "$10.990",
             "strDetalle": "CONTENIDO: 50GR",
-            "strStock": "STOCK DISPONIBLE: 87 Unidades.",
-            "strCodigo": "COD. PRODUCTO: TG-FISH283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "87 Unidades.",
+            "strCodigo": "TG-FISH283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
 
         },
         {
@@ -133,10 +133,10 @@
             "strDescripcion": "Alimento para hamster TROPIFIT, bolsa de 250GRS.", 
             "strPrecio": "$13.480",
             "strDetalle": "CONTENIDO: 1KG",
-            "strStock": "STOCK DISPONIBLE: 19 Unidades.",
-            "strCodigo": "COD. PRODUCTO: HM0-283414",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "19 Unidades.",
+            "strCodigo": "HM0-283414",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
 
         },
         {
@@ -146,10 +146,10 @@
             "strDescripcion": "Alimento para canarios marca CHAMPION de la líne Mini Pets, cuida la salud de tus aves, con este alimento de alta calidad hecho a base de ingredientes naturales.", 
             "strPrecio": "$7.980",
             "strDetalle": "CONTENIDO: 15GR",
-            "strStock": "STOCK DISPONIBLE: 202 Unidades.",
-            "strCodigo": "COD. PRODUCTO: CNRO-ALC0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "202 Unidades.",
+            "strCodigo": "CNRO-ALC0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
 
         }
     ],
@@ -161,10 +161,10 @@
             "strDescripcion": "Jaula para gatos con multiples plataformas, ideal para cuando tienes más de un gato y quieres fomentar una buena convivencia entre ellos.", 
             "strPrecio": "$50.980",
             "strDetalle": "DETALLES DEL PRODUCTO:",
-            "strStock": "STOCK DISPONIBLE: 11 Unidades.",
-            "strCodigo": "COD. PRODUCTO: PLT-GT0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "11 Unidades.",
+            "strCodigo": "PLT-GT0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "Bebedero Gato Flor",
@@ -173,10 +173,10 @@
             "strDescripcion": "Bebedero para gatos con forma de flor marca CATIT, cuenta con sistema de riego tipo fuente. Consiente a tus gatitos asegurandote que siempre tengan agua fresca con este innovador accesorio.", 
             "strPrecio": "$35.990",
             "strDetalle": "DETALLES DEL PRODUCTO:",
-            "strStock": "STOCK DISPONIBLE: 30 Unidades.",
-            "strCodigo": "COD. PRODUCTO: CATIT-0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "30 Unidades.",
+            "strCodigo": "CATIT-0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "Tratamiento Anti Pulgas",
@@ -185,10 +185,10 @@
             "strDescripcion": "Producto para tratamiento anti pulgas para gatos, manten a tus gatos excentos de las diversas enfermedades que pueden transmitir las pulgas.", 
             "strPrecio": "$15.980",
             "strDetalle": "DETALLES DEL PRODUCTO:",
-            "strStock": "STOCK DISPONIBLE: 15 Unidades.",
-            "strCodigo": "COD. PRODUCTO: CAM-GRR0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "15 Unidades.",
+            "strCodigo": "CAM-GRR0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "Toallitas Húmedas para Perro",
@@ -197,10 +197,10 @@
             "strDescripcion": "Toallitas húmedas hidratantes especiales para las patitas, orejas y nariz de tus perritos.", 
             "strPrecio": "$5.990",
             "strDetalle": "CONTENIDO: 180 toallitas.",
-            "strStock": "STOCK DISPONIBLE: 37 Unidades.",
-            "strCodigo": "COD. PRODUCTO: PLT-YHG283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "37 Unidades.",
+            "strCodigo": "PLT-YHG283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅SI."
         },
         {
             "strTitulo": "Jabón Dermatológico Perro",
@@ -209,10 +209,10 @@
             "strDescripcion": "Jabón dermatológico para perros de uso exclusivo para tratamiento contra enfermedades de la piel. Venta única bajo prescripción de un veterinario.", 
             "strPrecio": "$6.980",
             "strDetalle": "CONTENIDO: 1 barra.",
-            "strStock": "STOCK DISPONIBLE: 7 Unidades.",
-            "strCodigo": "COD. PRODUCTO: CAS-PR0283414",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "7 Unidades.",
+            "strCodigo": "CAS-PR0283414",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "Desparacitante Simparica",
@@ -221,10 +221,10 @@
             "strDescripcion": "Desparacitante en formato de comprimidos masticables para tus perros mayores a 8 semanas de edad. Venta bajo prescripción de un veterinario.", 
             "strPrecio": "$12.990",
             "strDetalle": "DETALLES DEL PRODUCTO:",
-            "strStock": "STOCK DISPONIBLE: 22 Unidades.",
-            "strCodigo": "COD. PRODUCTO: DS-DTC0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "22 Unidades.",
+            "strCodigo": "DS-DTC0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         }
 
     ],
@@ -236,10 +236,10 @@
             "strDescripcion": "Evita que tus perritos hagan destrozos en el hogar con este KIT de PELOTA + CUERDA, así se podrán divertir y desestresar al mismo tiempo.", 
             "strPrecio": "$10.990",
             "strDetalle": "COLORES DISPONIBLES: Azul, Verde, Rojo.",
-            "strStock": "STOCK DISPONIBLE: 10 Unidades.",
-            "strCodigo": "COD. PRODUCTO: KIT-TER0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "10 Unidades.",
+            "strCodigo": "KIT-TER0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "Cama Mascotas Polar",
@@ -248,10 +248,10 @@
             "strDescripcion": "Consiente a tus perros (razas pequeñas) o gatos con esta hermosa y cómoda cama recubierta con polar. Accesorio ideal para la temporada de INVIERNO.", 
             "strPrecio": "$24.980",
             "strDetalle": "COLORES DISPONIBLES: Beige, Azul, Verde.",
-            "strStock": "STOCK DISPONIBLE: 37 Unidades.",
-            "strCodigo": "COD. PRODUCTO: CAM-POLAR0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "37 Unidades.",
+            "strCodigo": "CAM-POLAR0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "Cama Mascotas Grande",
@@ -260,10 +260,10 @@
             "strDescripcion": "Consiente a tus perros de razas medianas y grandes con esta hermosa y cómoda cama recubierta con materiales térmicos de alta calidad. Ideal para la temporada de INVIERNO.", 
             "strPrecio": "$30.990",
             "strDetalle": "COLORES DISPONIBLES: Gris, Beige, Fucsia, Azul, Verde, Rojo.",
-            "strStock": "STOCK DISPONIBLE: 15 Unidades.",
-            "strCodigo": "COD. PRODUCTO: CAM-GRR0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "15 Unidades.",
+            "strCodigo": "CAM-GRR0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "Pelota Recargable",
@@ -272,10 +272,10 @@
             "strDescripcion": "Alegra la vida de tus gatitos con este innovador juguete, una pelota recargable que se desplaza de manera automática para que tenga un día lleno de entretención. (Se recarga mediante USB).", 
             "strPrecio": "$7.980",
             "strDetalle": "COLORES DISPONIBLES: Azul, Verde Menta, Rojo.",
-            "strStock": "STOCK DISPONIBLE: 37 Unidades.",
-            "strCodigo": "COD. PRODUCTO: PLT-REC0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "37 Unidades.",
+            "strCodigo": "PLT-REC0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "Casa para Perro",
@@ -284,10 +284,10 @@
             "strDescripcion": "Casa para perros de material liviano y fácil de transportar. Apto para perros de razas pequeñas, medianas y grandes.", 
             "strPrecio": "$45.990",
             "strDetalle": "COLORES DISPONIBLES: Azul, Verde, Gris, Negro.",
-            "strStock": "STOCK DISPONIBLE: 7 Unidades.",
-            "strCodigo": "COD. PRODUCTO: CAS-PR0283414",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "7 Unidades.",
+            "strCodigo": "CAS-PR0283414",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "Juguete Didáctico",
@@ -296,10 +296,10 @@
             "strDescripcion": "Mantén a tu gatito libre de estrés y con mucha entretención con este JUGUETE DIDÁCTICO que fomenta el desarollo de sus habilidades motrices esenciales en su crecimiento.", 
             "strPrecio": "$5.470",
             "strDetalle": "COLORES DISPONIBLES: Amarillo, Rosado, Azul, Verde, Rojo.",
-            "strStock": "STOCK DISPONIBLE: 22 Unidades.",
-            "strCodigo": "COD. PRODUCTO: JUG-DTC0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "22 Unidades.",
+            "strCodigo": "JUG-DTC0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         }
     ],
 
@@ -311,10 +311,10 @@
             "strDescripcion": "Arena sanitaria BENGALA de la más alta calidad, de rápida absorción y evita malos olores. Brinda lo mejor de lo mejor a tus gatitos.", 
             "strPrecio": "$18.990",
             "strDetalle": "CONTENIDO: 15KG.",
-            "strStock": "STOCK DISPONIBLE: 11 Unidades.",
-            "strCodigo": "COD. PRODUCTO: PLT-GT0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "11 Unidades.",
+            "strCodigo": "PLT-GT0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
 
         },
         {
@@ -324,10 +324,10 @@
             "strDescripcion": "Arena sanitaria con microcristales que evita los malos olores y asegura una absorción eficaz.", 
             "strPrecio": "$15.980",
             "strDetalle": "CONTENIDO: 10KG.",
-            "strStock": "STOCK DISPONIBLE: 20 Unidades.",
-            "strCodigo": "COD. PRODUCTO: AHTR-0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "20 Unidades.",
+            "strCodigo": "AHTR-0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
 
         },
         {
@@ -337,10 +337,10 @@
             "strDescripcion": "Americalitter es una marca líder en arenas sanitarias para gato, esta arena está compuesta por microparticulas que evitan los malos olores y suciedad fuera del arenero.", 
             "strPrecio": "$30.980",
             "strDetalle": "CONTENIDO: 20KG.",
-            "strStock": "STOCK DISPONIBLE: 15 Unidades.",
-            "strCodigo": "COD. PRODUCTO: AME-GRR0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "15 Unidades.",
+            "strCodigo": "AME-GRR0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
 
         },
         {
@@ -350,10 +350,10 @@
             "strDescripcion": "Arenero de plástico marca CAT'S LIFE desmontable, incluye palita para limpieza.", 
             "strPrecio": "$27.000",
             "strDetalle": "DETALLES DEL PRODUCTO:",
-            "strStock": "STOCK DISPONIBLE: 7 Unidades.",
-            "strCodigo": "COD. PRODUCTO: AR-YHG283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "7 Unidades.",
+            "strCodigo": "AR-YHG283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
 
         },
         {
@@ -363,10 +363,10 @@
             "strDescripcion": "Kit de arenero + 3 bolsas de arenas sanitarias de 2KG cada una, calidad premium.", 
             "strPrecio": "$37.990",
             "strDetalle": "DETALLES DEL PRODUCTO:",
-            "strStock": "STOCK DISPONIBLE: 17 Unidades.",
-            "strCodigo": "COD. PRODUCTO: PR80-283414",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "17 Unidades.",
+            "strCodigo": "PR80-283414",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
 
         },
         {
@@ -376,10 +376,10 @@
             "strDescripcion": "Easy Clean es una marca líder en productos de aseo para gatitos, con este arenero podrás facilitar la limpieza cotidiana.", 
             "strPrecio": "$45.980",
             "strDetalle": "DETALLES DEL PRODUCTO:",
-            "strStock": "STOCK DISPONIBLE: 22 Unidades.",
-            "strCodigo": "COD. PRODUCTO: DS-DTC0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "22 Unidades.",
+            "strCodigo": "DS-DTC0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
 
         }
     ],
@@ -391,10 +391,10 @@
             "strDescripcion": "Hermosa camisa guayabera con diseños hawaianos, ideal para la temporada de verano. Disponible sólo en el color referencial de la imagen. Contamos con todas las tallas disponibles y es apto tanto para perros como para gatos.", 
             "strPrecio": "$6.780",
             "strDetalle": "DETALLES DEL PRODUCTO:",
-            "strStock": "STOCK DISPONIBLE: 25 Unidades.",
-            "strCodigo": "COD. PRODUCTO: GUAY-VER56322",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "25 Unidades.",
+            "strCodigo": "GUAY-VER56322",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "CAMISA ESTAMPADA UNISEX",
@@ -403,10 +403,10 @@
             "strDescripcion": "Hermosa camisa con estampados unisex de cuello italiano, para que vistas a tu mascota con estilo y a la moda. Contamos con todas las tallas disponibles y es apto tanto para perros como para gatos.", 
             "strPrecio": "$5.990",
             "strDetalle": "DETALLES DEL PRODUCTO:",
-            "strStock": "STOCK DISPONIBLE: 100 Unidades.",
-            "strCodigo": "COD. PRODUCTO: HFVGGHS56322",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "100 Unidades.",
+            "strCodigo": "HFVGGHS56322",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "CHALECO METALIZADO",
@@ -415,10 +415,10 @@
             "strDescripcion": "Chaleco tipo parka metalizado, ideal para la temporada OTOÑO-INVIERNO para que mantengas a tu mascota abrigada y protegida del frío.", 
             "strPrecio": "$15.990",
             "strDetalle": "DETALLES DEL PRODUCTO:",
-            "strStock": "STOCK DISPONIBLE: 50 Unidades.",
-            "strCodigo": "COD. PRODUCTO: CHA-MET56232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: NO."
+            "strStock": "50 Unidades.",
+            "strCodigo": "CHA-MET56232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ NO."
         },
         {
             "strTitulo": "CONJUNTO TERMICO",
@@ -427,10 +427,10 @@
             "strDescripcion": "Conjunto cuerpo entero térmico unisex, ideal para la temporada de INVIERNO para que mantengas a tu mascota abrigada y protegida del frío. Disponible en todas las tallas, apto para perros de razas grandes o pequeñas.", 
             "strPrecio": "$25.980",
             "strDetalle": "DETALLES DEL PRODUCTO:",
-            "strStock": "STOCK DISPONIBLE: 37 Unidades.",
-            "strCodigo": "COD. PRODUCTO: PAR-TER0283232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "37 Unidades.",
+            "strCodigo": "PAR-TER0283232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "VESTIDO LENTEJUELAS",
@@ -439,10 +439,10 @@
             "strDescripcion": "Vestido de lentejuelas con lazo en la parte trasera, ideal para las más consentidas de la casa. Disponible en todas las tallas, apto para perros de razas pequeñas y gatos.", 
             "strPrecio": "$10.980",
             "strDetalle": "DETALLES DEL PRODUCTO:",
-            "strStock": "STOCK DISPONIBLE: 15 Unidades.",
-            "strCodigo": "COD. PRODUCTO: VES-LENT0583232",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "15 Unidades.",
+            "strCodigo": "VES-LENT0583232",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         },
         {
             "strTitulo": "JARDINERA MARINERO",
@@ -451,10 +451,10 @@
             "strDescripcion": "Conjunto de polera y jardinera con diseño tipo MARINERO, ideal para cachorros o gatos.", 
             "strPrecio": "$9.990",
             "strDetalle": "DETALLES DEL PRODUCTO:",
-            "strStock": "STOCK DISPONIBLE: 38 Unidades.",
-            "strCodigo": "COD. PRODUCTO: JAR-MAR86732",
-            "strEnvio": "ENVIO A DOMICILIO: SI.",
-            "strRetiro": "RETIRO EN TIENDA: SI."
+            "strStock": "38 Unidades.",
+            "strCodigo": "JAR-MAR86732",
+            "strEnvio": "ENVIO A DOMICILIO ✅ SI.",
+            "strRetiro": "RETIRO EN TIENDA ✅ SI."
         }
     ]
 }
