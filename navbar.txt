@@ -1,0 +1,80 @@
+     <!-- Inicio del Script - No cargar de nuevo la página: -->
+     <script>
+      
+      $(document).ready(function(){
+
+        // Se declara trigger y variable container:
+        var trigger = $('#navbar ul li a'),
+            container = $('#contenido');
+
+        // Cuando haga click:
+        trigger.on('click', function(){
+          // Declarar $this para re-usar. Declarar target:
+          var $this = $(this),
+              target = $this.data('target');
+              console.log(target);
+
+        // Cargar target pagina dentro del container: 
+        container.load(target + '.html');  
+
+        // Stop:
+        return false;
+
+        });
+      });
+
+     </script>
+
+---------------------------------------------------------------------------
+   <!-- Inicio del NAVBAR: -->
+   <nav id="navbar" class="navbar navbar-expand-lg bg-color" >
+    <div class="container-fluid">
+    <a class="navbar-brand" href="Index.html" data-target="index">
+      <img src="Imagenes/Logo navbar.png" alt="Logo" width="100" height="70" class="d-inline-block align-text-center">
+      <strong>Mascotik Store</strong>  
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+
+        <li class="nav-item">
+        <a class="nav-link" href="Nosotros.html" data-target="nosotros"><strong>Nosotros</strong></a>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="Tienda.html" data-target="tienda" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <strong>Tienda</strong>  
+          </a>
+          <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda Ropa.html" data-target="ropa"><strong>Ropa</strong></a></li>
+          <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda Alimento.html" data-target="alimentos"><strong>Alimentos</strong></a></li>
+          <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda Accesorios.html" data-target="juguetes"><strong>Juguetes y Accesorios </strong></a></li>
+          <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda Cuidado.html" data-target="cuidado"><strong>Cuidado y Farmacia</strong> </a></li>
+          <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda Baños.html" data-target="banolimpieza"> <strong>Baños y limpieza</strong></a></li>
+          <li><a class="dropdown-item" href="SUBPAGINAS DE TIENDA/Tienda exoticos.html" data-target="exoticos"> <strong>Mascotas Exoticas</strong></a></li>
+          </ul>
+        <li class="nav-item">
+        <a class="nav-link" href="Donaciones.html" data-target="donaciones"> <strong>Donaciones</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contacto.html" data-target="contacto"><strong>Contacto</strong></a>
+        </li>  
+        </li>
+        </ul>
+
+       <!-- BOTON - FORM. BUSQUEDA NAVBAR: -->
+        <formSearch class="d-flex" role="Buscar">
+        <input class="form-control me-2" type="Buscar" placeholder="¿Buscas algo especial?" aria-label="Buscar">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </formSearch>
+
+    </div>
+    </div>
+
+</nav>
+    <!-- FIN del NAVBAR: -->
+
+    <div id="contenido">
+        <?html include('Index.html'); ?>
+      </div>
