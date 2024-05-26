@@ -51,43 +51,45 @@
         <div class="text-center">
         <a class="btn btn-primary" href="formularioDonaciones/formularioDonaciones.html" type="submit">QUIERO DONAR</a>
         </div> <br>
-        
-
-        <div class="container">
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col-md-6 d-flex justify-content-center align-items-center">
-                    <div class="card">
-                        <img src="Fundaciones/Fundacion 1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Fundacion Ayuda un Peludo ONG</h5>
-                            <p class="card-text">Conoce Fundacion Ayuda un Peludo ONG, una de los lugares que apoyamos agracios a todos ustedes.</p>
-                            <a href="Fundaciones/Peludos ONG/HMTL/index.html"   class="btn btn-primary"type="submit">Conocer Fundacion</a>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 d-flex justify-content-center align-items-center">
-                    <div class="card">
-                        <img src="Fundaciones/Fundacion 2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Fundacion Patitas Felices ONG</h5>
-                            <p class="card-text">Conoce Fundacion Patitas Felices ONG, una de los lugares que apoyamos agracios a todos ustedes.</p>
-                            <a href="Fundaciones/Tarea perritos/index.html"  class="btn btn-primary"type="submit">Conocer Fundacion</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
     <br>
+
+    <div class="container">
+        <div class="row row-cols-auto" id="contenedor-ong">
+        </div>
+        <br>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    </div>
+     <br>
+
     <br>
 
 </body>
 
+<script>
+    $(document).ready(function() {
+        function cargarDatos() {
+            $.getJSON("../JSON/ongdata.json", function(data) {
+                $.each(data.fundaciones, function(index, datos) {
+                    var nuevaTarjeta = $("<div class='card tarjetas mb-3 me-3' style='width: 22rem;' valor-id='" + datos.id + "'>");
+                    nuevaTarjeta.append("<img src='"  + datos.Img + "' class='card-img-top' alt='perrito " + datos.id + "'>");
+                    nuevaTarjeta.append("<p class='card-text text-center'><strong>" + datos.strTitulo + "</strong></p>");
+                    var ul = $("<ul>");
+                    ul.append("<li> " + datos.strRegion + "</li>");
+                    nuevaTarjeta.append(ul);
+                    nuevaTarjeta.append("<input type='button' class='btn btn-primary' value='Ver Detalles'>");
+                    nuevaTarjeta.click(function(){
+                        $("#exampleModal").empty()
+                        $("#exampleModal").append('<div class="modal-dialog bg-color"><div class="modal-content"><div class="modal-header bg-color"> <h1 class="modal-title fs-4" id="exampleModalLabel">' + datos.strTitulo + '</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div> <div class="modal-body"><img src="' + datos.Img + '" style="width: 465px; height:300px;"> <br><strong></strong>' + datos.strDescripcion + '<br> <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Comprar</button></div></div></div>')
+                        $("#exampleModal").modal("show")
+                    });
+                    $("#contenedor-ong").append(nuevaTarjeta);
+                });
+            });
+        }
 
+        cargarDatos();
+    });
+</script>
 </html>

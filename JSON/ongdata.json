@@ -1,16 +1,46 @@
 {
     "fundaciones": [
         {
-            "ImgFundacion": "../fundaciones/Fundacion 1.jpg",
-            "idFundacion": "1",
+            "Img": "../fundaciones/Fundacion 1.jpg",
+            "id": "1",
             "strTitulo": "Fundacion Ayuda un Peludo ONG",
-            "strDescripcion": "Conoce Fundacion Ayuda un Peludo ONG, una de los lugares que apoyamos agracios a todos ustedes."
+            "strDescripcion": "Conoce Fundacion Ayuda un Peludo ONG, una de los lugares que apoyamos agracios a todos ustedes.",
+            "strRegion":"Puente Alto, Region Metropolitana"
         },
         {
-            "ImgFundacion": "../fundaciones/Fundacion 2.jpg",
-            "idFundacion": "2",
+            "Img": "../fundaciones/Fundacion 2.jpg",
+            "id": "2",
             "strTitulo": "Fundacion Patitas Felices ONG",
-            "strDescripcion": "Conoce Fundacion Patitas Felices ONG, una de los lugares que apoyamos agracios a todos ustedes."
+            "strDescripcion": "Conoce Fundacion Patitas Felices ONG, una de los lugares que apoyamos agracios a todos ustedes.",
+            "strRegion":"Santiago, Region Metropolitana"
+        },
+        {
+            "Img": "../fundaciones/Fundacion 3.png",
+            "id": "3",
+            "strTitulo": "Fundación Huella Animal",
+            "strDescripcion": "Fundación Huella Animal es una organización sin fines de lucro que nace el año 2015 con el propósito de dar solución a la problemática de Bienestar Animal y Tenencia Responsable de Mascotas y Animales de Compañía en Chile. Hoy en día hemos crecido mucho como equipo y nos hemos formado en distintas áreas.",
+            "strRegion":"Valparaiso, v Region"
+        },
+        {
+            "Img": "../fundaciones/Fundacion 4.png",
+            "id": "4",
+            "strTitulo": "Fundacion Esperanza Animal",
+            "strDescripcion": "Rescatar, Esterilizar, Entregar rehabilitación psicológica y física a mascotas que han sufrido Maltrato, Abuso y Abandono, para luego darles la oportunidad de reinserción en una familia. Además de Educar y Fomentar la Tenencia Responsable.",
+            "strRegion":"Huechuraba, Region Metropolitana"
+        },
+        {
+            "Img": "../fundaciones/Fundacion 5.png",
+            "id": "5",
+            "strTitulo": "Fundacion Arca",
+            "strDescripcion": "ARCA es una organización sin fines de lucro, compuesta por un equipo multidisciplinario de profesionales, tales como médicos veterinarios y abogados, todos versados en el manejo y cuidado animal.",
+            "strRegion":"Santiago, Region Metropolitana"
+        },
+        {
+            "Img": "../fundaciones/Fundacion 6.jpg",
+            "id": "6",
+            "strTitulo": "Fundacion Ayuda Callejero",
+            "strDescripcion": "Somos Ayuda Callejeros Una fundación sin fines de lucro, que pretende proteger y mejorar la calidad de vida de perros y gatos que han sido abandonados o maltratados.",
+            "strRegion":"Maipu, Region Metropolitana"
         }
 
     ]
