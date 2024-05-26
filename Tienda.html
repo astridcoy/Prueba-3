@@ -15,34 +15,21 @@
    
        
         <title>Mascotik Store</title>
+    </head> 
 
 </head> 
 
-
 <body>
 
-    
-    <br>
-    <div class="contenedor">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 d-flex align-items-center justify-content-center">
-                    <img src="Imagenes/Logo Tarjeta.png" alt="Logo" width="180" height="150">
-                  
-                </div>
-                <div class="col-md-6">
-                    <div class="col-md-12 text-center">
-                        <h3><strong>Mascotik Store</strong></h3>
-                        <p><strong>Correo electrónico:</strong> Contacto@Mascotik Store.com </p>
-                        <p><strong>Teléfono:</strong> +56966989578</p>
-                        <p><strong>Dirección :</strong> Santiago, Chile</p>
-                    </div>
-                </div>
-            </div>
+    <div class="container">
+        <div class="row row-cols-auto" id="contenedor-tienda">
         </div>
+        <br>
     </div>
 
-
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    </div>
+     
 </body>
 
 <script>
@@ -50,31 +37,31 @@
         function cargarDatos(categoria) {
             $.getJSON("../JSON/allmodal.json", function(data) {
                 $.each(data[categoria], function(index, datos) {
-                    var nuevaTarjeta = $("<div class='card' style='width: 22rem;'>");
+                    var nuevaTarjeta = $("<div class='card tarjetas' style='width: 22rem;' valor-id='" + datos.id + "'>");
                     nuevaTarjeta.append("<img src='"  + datos.Img + "' class='card-img-top' alt='perrito " + datos.id + "'>");
                     nuevaTarjeta.append("<p class='card-text text-center'><strong>" + datos.strTitulo + "</strong></p>");
                     var ul = $("<ul>");
                     ul.append("<li> " + datos.strDescripcion + "</li>");
                     ul.append("<li> Precio: " + datos.strPrecio + "</li>");
                     nuevaTarjeta.append(ul);
-                    nuevaTarjeta.append("<input type='button' class='btn btn-primary' value='Ver Detalles' id='enviar'>");
+                    nuevaTarjeta.append("<input type='button' class='btn btn-primary' value='Ver Detalles'>");
+                    nuevaTarjeta.click(function(){
+                        $("#exampleModal").empty()
+                        $("#exampleModal").append('<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-5" id="exampleModalLabel">' + datos.strTitulo + '</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><img src="' + datos.Img + '" style="width: 40%; height:40%;"><br><br>' + datos.strTitulo + '<br>' + datos.strDescripcion + '<br>Precio: ' + datos.strPrecio + '</div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div></div></div>')
+                        $("#exampleModal").modal("show")
+                    });
                     $("#contenedor-tienda").append(nuevaTarjeta);
                 });
             });
         }
         
-        // Evento de clic para los elementos del menú desplegable
         $(".dropdown-item").click(function() {
-            // Obtener la categoría seleccionada
             var categoria = $(this).data("categoria");
-            // Limpiar el contenedor antes de cargar nuevos datos
             $("#contenedor-tienda").empty();
-            // Cargar datos según la categoría seleccionada
             cargarDatos(categoria);
         });
-    
 
         cargarDatos("Alimentos");
     });
-    </script>
+</script>
 </html>
