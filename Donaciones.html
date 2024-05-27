@@ -49,7 +49,7 @@
         
         <br>
         <div class="text-center">
-        <a class="btn btn-primary" href="formularioDonaciones/formularioDonaciones.html" type="submit">QUIERO DONAR</a>
+        <a class="btn btn-primary" href="formularioDonaciones/formularioDonaciones.html" type="submit">¡QUIERO DONAR!</a>
         </div> <br>
     <br>
 
@@ -81,7 +81,7 @@
                     nuevaTarjeta.append("<input type='button' class='btn btn-primary' value='Ver Detalles'>");
                     nuevaTarjeta.click(function(){
                         $("#exampleModal").empty()
-                        $("#exampleModal").append('<div class="modal-dialog bg-color"><div class="modal-content"><div class="modal-header bg-color"> <h1 class="modal-title fs-4" id="exampleModalLabel">' + datos.strTitulo + '</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div> <div class="modal-body"><img src="' + datos.Img + '" style="width: 465px; height:300px;"> <br><strong></strong>' + datos.strDescripcion + '<br> <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Comprar</button></div></div></div>')
+                        $("#exampleModal").append('<div class="modal-dialog bg-color"><div class="modal-content"><div class="modal-header bg-color"> <h1 class="modal-title fs-4" id="exampleModalLabel">' + datos.strTitulo + '</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div> <div class="modal-body"><img src="' + datos.Img + '" style="width: 465px; height:300px;"> <br><strong>💜INFORMACIÓN DE FUNDACIÓN:</strong><br>' + datos.strDescripcion + '<br> <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">¡Donar!</button></div></div></div>')
                         $("#exampleModal").modal("show")
                     });
                     $("#contenedor-ong").append(nuevaTarjeta);
