@@ -78,9 +78,15 @@
            <li><a class="dropdown-item" href="Tienda.html" data-target="limpieza" data-categoria="limpieza" > <strong>Baños y limpieza</strong></a></li>
            <li><a class="dropdown-item" href="Tienda.html" data-target="exoticos" data-categoria="exoticos"> <strong>Mascotas Exoticas</strong></a></li>
            </ul>
-       <li class="nav-item">
-       <a class="nav-link" href="Donaciones.html" data-target="donaciones"> <strong>Donaciones</strong></a>
-       </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="Donaciones.html" data-target="donaciones" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <strong>Donaciones</strong>  
+          </a>
+          <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="Donaciones.html" data-target="donaciones" data-categoria="ropa"><strong>fundaciones</strong></a></li>
+          <li><a class="dropdown-item" href="formularioDonaciones.html" data-target="formularioDonaciones" data-categoria="alimentos"><strong>Formulario Donaciones</strong></a></li>
+          </ul>
+        </li>
        <li class="nav-item">
          <a class="nav-link" href="Contacto.html" data-target="contacto"><strong>Contacto</strong></a>
        </li>  
@@ -100,7 +106,7 @@
    <!-- FIN del NAVBAR: -->
   
    <div id="contenido">
-    <?html include('main.html'); ?>
+    <?html include('index.html'); ?>
   
   </div>
 
